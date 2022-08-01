@@ -1,12 +1,11 @@
 <template>
   <div>
-    <Example />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
 
 <script setup lang="ts">
-import {
-  Example
-} from '@/components';
 
 </script>
