@@ -6,6 +6,8 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<style lang="scss">
+@import '@/assets/scss/reset.scss';
+@import '@/assets/scss/global.scss';
 
-</script>
+</style>
