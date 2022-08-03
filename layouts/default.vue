@@ -15,6 +15,8 @@ import {
 <style lang="scss" scoped>
 .default-layout-container {
   position: relative;
+  height: 100vh;
+  background-color: var(--gs-f7);
 }
 
 

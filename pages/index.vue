@@ -1,12 +1,12 @@
 <template>
   <div class="home-root">
-    <Example />
+    <OnboardingVideo />
   </div>
 </template>
 
 <script lang="ts" setup>
 import {
-  Example
+  OnboardingVideo
 } from '@/components';
 
 </script>
