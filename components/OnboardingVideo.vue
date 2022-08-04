@@ -53,6 +53,8 @@
     display: flex;
     align-items: center;
     gap: 32px;
+    box-sizing: border-box;
+    overflow: hidden;
 
     .wrap-onboarding-video {
       position: relative;
@@ -100,6 +102,17 @@
       transform: rotate(45deg);
       bottom: -32px;
       right: -32px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .onboarding-video-container {
+    .wrap-onboarding {
+      width: calc(100% - 16px);
+      margin: 0 auto;
+      flex-direction: column;
+      gap: 12px;
     }
   }
 }
