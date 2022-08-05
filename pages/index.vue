@@ -1,6 +1,7 @@
 <template>
   <div class="home-root">
     <OnboardingVideo />
+    <MarketingItemList />
   </div>
 </template>
 
@@ -8,6 +9,10 @@
 import {
   OnboardingVideo
 } from '@/components';
+
+import {
+  MarketingItemList
+} from '@/containers';
 
 </script>
 
