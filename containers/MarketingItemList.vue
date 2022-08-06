@@ -5,17 +5,16 @@
 </template>
 
 <script lang="ts" setup>
-import { getMarketingItems } from '~~/apis/marketingItems.js';
+import { getMarketingItemsJson } from '~~/apis/marketingItems.js';
 
 onMounted(async () => {
   const searchRequirement = {
     itemType: 'all',
-    perPage: 1,
     page: 2,
   }
 
   try {
-    const res = await getMarketingItems(searchRequirement);
+    const res = await getMarketingItemsJson(searchRequirement);
     console.log(res.data, '확인');
   } catch(error) {
     console.log(error, '에러');

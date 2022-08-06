@@ -1,6 +1,9 @@
 import axios,
 { AxiosResponse } from 'axios';
-import { requestMarketingItemsType } from '@/interface/marketingItems';
+import {
+  requestMarketingItemsType,
+  requestMarketingItemsJsonType
+} from '@/interface/marketingItems';
 import endpoints from './endpoints';
 
 export const getMarketingItems = (requirement: requestMarketingItemsType): Promise<AxiosResponse> => {
@@ -16,4 +19,19 @@ export const getMarketingItems = (requirement: requestMarketingItemsType): Promi
   return res;
 };
 
-export default { getMarketingItems };
+export const getMarketingItemsJson = (requirement: requestMarketingItemsJsonType): Promise<AxiosResponse> => {
+  const {
+    itemType,
+    page
+  } = requirement;
+
+  const url = `${endpoints.marketingItemsJson}/${itemType}/${page}.json`;
+  const res = axios.get(url);
+
+  return res;
+};
+
+export default {
+  getMarketingItems,
+  getMarketingItemsJson,
+};
