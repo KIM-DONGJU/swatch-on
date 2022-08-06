@@ -1,3 +1,5 @@
+import { AllowedComponentProps } from 'vue'
+
 export interface requestMarketingItemsType {
   itemType: string,
   perPage: number,
@@ -113,4 +115,11 @@ export interface responseMarketingItemsType {
   page: number,
   perPage: number,
   total: number,
+}
+
+export interface marketingItemsCategoryType {
+  'all': String,
+  'discover': string,
+  'trending_on': string,
+  'mood_board': string,
 }

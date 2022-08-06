@@ -1,11 +1,12 @@
 <template>
   <div class="marketing-item-list-container">
-
+    <MarketingItemsCategory />
   </div>
 </template>
 
 <script lang="ts" setup>
-import { getMarketingItemsJson } from '~~/apis/marketingItems.js';
+import { getMarketingItemsJson } from '@/apis/marketingItems.js';
+import { MarketingItemsCategory } from '@/components';
 
 onMounted(async () => {
   const searchRequirement = {
@@ -27,5 +28,13 @@ onMounted(async () => {
 <style lang="scss" scoped>
 .marketing-item-list-container {
   max-width: 1920px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1200px) {
+  .marketing-item-list-container {
+    padding: 0 48px;
+  }
 }
 </style>
