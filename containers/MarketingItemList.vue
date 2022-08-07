@@ -11,7 +11,7 @@
 import { getMarketingItemsJson } from '@/apis/marketingItems';
 import { MarketingItemsCategory } from '@/components';
 import { ComputedRef } from 'vue';
-import { requestMarketingItemsJsonType, responseMarketingItemsType } from '@/interface/marketingItems';
+import { marketingItemsSplitCategoryType, marketingItemType, requestMarketingItemsJsonType, responseMarketingItemsType } from '@/interface/marketingItems';
 
 const route = useRoute();
 const router = useRouter();
@@ -33,6 +33,33 @@ const marketingItems: responseMarketingItemsType = reactive({
   perPage: 1,
   total: 1,
 });
+
+const getMarketingItemsSplitCategory: ComputedRef<marketingItemsSplitCategoryType> = computed(() => {
+  const marketingItemsSplitCategory: marketingItemsSplitCategoryType = marketingItems.items.reduce((result, item) => {
+    result[item.itemType].push(item);
+
+    return result;
+  }, {
+  'trending_on': [],
+  'mood_board': [],
+  'eyes_on': [],
+  'type_suggestion': [],
+  });
+
+  return marketingItemsSplitCategory
+});
+
+const getMoodBoardTypeItems: ComputedRef<Array<marketingItemType[]>> = computed(() => {
+  const moodBoardTypeItems = getMarketingItemsSplitCategory.value.mood_board;
+  const moodBoardTypeItemsQuantity = moodBoardTypeItems.length;
+  const moodBoardTypeItemsBundleThree: Array<marketingItemType[]> = [];
+
+  for (let i = 0; i < moodBoardTypeItemsQuantity; i += 3) {
+    moodBoardTypeItemsBundleThree.push(moodBoardTypeItems.slice(i, i+3));
+  };
+
+  return moodBoardTypeItemsBundleThree;
+})
 
 
 const setMarketingItems = async (itemType: string): Promise<void> => {
