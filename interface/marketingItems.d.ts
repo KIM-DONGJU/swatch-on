@@ -18,7 +18,7 @@ export interface marketingItemsImageType {
   small: string,
 }
 
-export interface marketingItemsColorType {
+export interface marketingItemsProductColorType {
   colorType: string,
   description: string,
   hexcode: string,
@@ -80,7 +80,7 @@ export interface marketingItemsQualityType {
 
 export interface marketingItemsProductType {
   code: string,
-  colors: marketingItemsColorType[],
+  colors: marketingItemsProductColorType[],
   id: number,
   image: marketingItemsImageType,
   labelColorNumber: string,
@@ -92,22 +92,28 @@ export interface marketingItemsProductType {
   stock: null | string,
 }
 
+export interface marketingItemsColorType {
+  hex: string,
+  pantoneNumber: string,
+}
+
 export interface marketingItemType {
-  color: marketingItemsColorType[],
-  createdAt: string,
-  description: string,
   id: number
-  images: marketingItemsImageType[],
+  sharingKey: string,
+  sequence: number,
+  status: string,
   itemType: string,
+  title: string,
+  subtitle: string,
+  description: string,
   landingUrl: string,
+  volume?: number,
+  createdAt: string,
+  updatedAt: string,
+  color: marketingItemsColorType[],
+  images: marketingItemsImageType[],
   products: marketingItemsProductType[],
   qualities: marketingItemsQualityType[],
-  sequence: number,
-  sharingKey: string,
-  status: string,
-  subtitle: string,
-  title: string,
-  updatedAt: string
 }
 
 export interface responseMarketingItemsType {

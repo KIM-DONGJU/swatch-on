@@ -41,7 +41,6 @@
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  box-sizing: border-box;
 
   .wrap-onboarding {
     position: relative;
@@ -53,7 +52,6 @@
     display: flex;
     align-items: center;
     gap: 32px;
-    box-sizing: border-box;
     overflow: hidden;
 
     .wrap-onboarding-video {

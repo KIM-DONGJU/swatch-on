@@ -1,0 +1,551 @@
+{
+	"items": [
+		{
+			"id": 2001,
+			"sharingKey": "fall-winter-2022-vol-20",
+			"sequence": 1,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "The Phygital Convergence",
+			"subtitle": "F/W 2022",
+			"description": "<p><span>&#8226;</span>&nbsp;Grunge Romance</p>\r\n<p><span>&#8226;</span>&nbsp;Digital Daydream</p>\r\n<p><span>&#8226;</span>&nbsp;Plushy Micro Textures</p>",
+			"landingUrl": "/fabric-trends/fall-winter-2022-vol-20",
+			"volume": 20,
+			"createdAt": "2022-07-13T11:00:18Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-2001_874d83c0-326c-4045-a597-0f2d531d9986_TrendingOn_Cover_Vol20.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-2001_874d83c0-326c-4045-a597-0f2d531d9986_TrendingOn_Cover_Vol20.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-2001_874d83c0-326c-4045-a597-0f2d531d9986_TrendingOn_Cover_Vol20.jpg",
+					"caption": ""
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#6D5698",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 1987,
+			"sharingKey": "fall-winter-2022-vol-19",
+			"sequence": 2,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "Deep Dive into Under Waters",
+			"subtitle": "F/W 2022",
+			"description": "<p><span>&#8226;</span>&nbsp;Soft Fluidity</p>\r\n<p><span>&#8226;</span>&nbsp;Ocean Wonders</p>\r\n<p><span>&#8226;</span>&nbsp;Galactic Blue</p>",
+			"landingUrl": "/fabric-trends/fall-winter-2022-vol-19",
+			"volume": 19,
+			"createdAt": "2022-06-19T23:58:14Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1987_63666a5a-204e-42c2-837c-4d7b3fabf02a_TrendingOn_Cover_Vol19+%281%29.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1987_63666a5a-204e-42c2-837c-4d7b3fabf02a_TrendingOn_Cover_Vol19+%281%29.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1987_63666a5a-204e-42c2-837c-4d7b3fabf02a_TrendingOn_Cover_Vol19+%281%29.jpg",
+					"caption": ""
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#253668",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 1973,
+			"sharingKey": "fall-winter-2021-vol-18",
+			"sequence": 3,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "The New Normal",
+			"subtitle": "F/W 2022",
+			"description": "<p><span>&#8226;</span>&nbsp;Business Casual</p>\r\n<p><span>&#8226;</span>&nbsp;New Classic</p>\r\n<p><span>&#8226;</span>&nbsp;Monochrome</p>",
+			"landingUrl": "/fabric-trends/fall-winter-2021-vol-18",
+			"volume": 18,
+			"createdAt": "2022-05-29T01:28:52Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1973_58861766-9fb9-4c65-b55e-d3459c788fc4_TrendingOn_Cover_Vol18.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1973_58861766-9fb9-4c65-b55e-d3459c788fc4_TrendingOn_Cover_Vol18.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1973_58861766-9fb9-4c65-b55e-d3459c788fc4_TrendingOn_Cover_Vol18.jpg",
+					"caption": ""
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#C1A68D",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 1952,
+			"sharingKey": "spring-summer-2022-vol-17",
+			"sequence": 4,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "Beyond the Beach",
+			"subtitle": "Summer 2022",
+			"description": "<p><span>&#8226;</span>&nbsp;Festive Craftcore</p>\r\n<p><span>&#8226;</span>&nbsp;Swimming in Retro</p>\r\n<p><span>&#8226;</span>&nbsp;Mountain Resort</p>",
+			"landingUrl": "/fabric-trends/spring-summer-2022-vol-17",
+			"volume": 17,
+			"createdAt": "2022-04-28T07:29:30Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1952_20c4fe41-cd03-4d4e-909d-f198ae8387ff_EA268959-438E-4174-BEDE-405A3DEA1268.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1952_20c4fe41-cd03-4d4e-909d-f198ae8387ff_EA268959-438E-4174-BEDE-405A3DEA1268.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1952_20c4fe41-cd03-4d4e-909d-f198ae8387ff_EA268959-438E-4174-BEDE-405A3DEA1268.jpg",
+					"caption": ""
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#0F4C81",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 1931,
+			"sharingKey": "spring-summer-2022-vol-16",
+			"sequence": 5,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "Earthly Essence",
+			"subtitle": "S/S 2022",
+			"description": "<p><span>&#8226;</span>&nbsp;Natural Beauty</p>\r\n<p><span>&#8226;</span>&nbsp;Big Romance</p>\r\n<p><span>&#8226;</span>&nbsp;Sun-Faded Characters</p>",
+			"landingUrl": "/fabric-trends/spring-summer-2022-vol-16",
+			"volume": 16,
+			"createdAt": "2022-03-25T05:34:00Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1931_43be3c9f-2c67-4df5-b5b7-afb3a633eb02_TrendingOn_Cover_Vol16+%283%29.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1931_43be3c9f-2c67-4df5-b5b7-afb3a633eb02_TrendingOn_Cover_Vol16+%283%29.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1931_43be3c9f-2c67-4df5-b5b7-afb3a633eb02_TrendingOn_Cover_Vol16+%283%29.jpg",
+					"caption": ""
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#F3ECE0",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 1915,
+			"sharingKey": "spring-summer-2022-vol-15",
+			"sequence": 6,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "Welcome to the Future Retro",
+			"subtitle": "S/S 2022",
+			"description": "<p><span>&#8226;</span>&nbsp;Digital Dreams</p>\r\n<p><span>&#8226;</span>&nbsp;Dimensional Dressing</p>\r\n<p><span>&#8226;</span>&nbsp;Game On Graphics</p>",
+			"landingUrl": "/fabric-trends/spring-summer-2022-vol-15",
+			"volume": 15,
+			"createdAt": "2022-02-21T09:14:27Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1915_2f439079-25fd-419a-9b28-5a2d9f816bdc_TrendingOn_Cover_Vol15+%281%29.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1915_2f439079-25fd-419a-9b28-5a2d9f816bdc_TrendingOn_Cover_Vol15+%281%29.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1915_2f439079-25fd-419a-9b28-5a2d9f816bdc_TrendingOn_Cover_Vol15+%281%29.jpg",
+					"caption": ""
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#FFD551",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 1898,
+			"sharingKey": "spring-summer-2022-vol-14",
+			"sequence": 7,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "Brave, New (Virtual) World",
+			"subtitle": "S/S 2022",
+			"description": "<p><span>&#8226;</span>&nbsp;Outdoor Futurism</p>\r\n<p><span>&#8226;</span>&nbsp;Y2K 2.0</p>\r\n<p><span>&#8226;</span>&nbsp;Glitchcore</p>",
+			"landingUrl": "/fabric-trends/spring-summer-2022-vol-14",
+			"volume": 14,
+			"createdAt": "2022-01-17T05:44:28Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1898_6d49442e-20e2-4d83-b2d6-47a597727e30_TrendingOn_Cover_Vol14.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1898_6d49442e-20e2-4d83-b2d6-47a597727e30_TrendingOn_Cover_Vol14.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1898_6d49442e-20e2-4d83-b2d6-47a597727e30_TrendingOn_Cover_Vol14.jpg",
+					"caption": ""
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#6868AB",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 1884,
+			"sharingKey": "spring-summer-2022-vol-13",
+			"sequence": 8,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "Retrofuturistic Hedonism",
+			"subtitle": "S/S 2022",
+			"description": "<p><span>&#8226;</span>&nbsp;Sheer Dimension</p><p><span>&#8226;</span>&nbsp;Hyperbrights</p><p><span>&#8226;</span>&nbsp;Optical New Wave</p>",
+			"landingUrl": "/fabric-trends/spring-summer-2022-vol-13",
+			"volume": 13,
+			"createdAt": "2021-12-28T08:12:17Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1884_ff2718e7-e272-4c88-b19f-afe559073053_TrendingOn_Cover_Vol13.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1884_ff2718e7-e272-4c88-b19f-afe559073053_TrendingOn_Cover_Vol13.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1884_ff2718e7-e272-4c88-b19f-afe559073053_TrendingOn_Cover_Vol13.jpg",
+					"caption": ""
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#ba0684",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 1863,
+			"sharingKey": "spring-summer-2022-vol-12",
+			"sequence": 9,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "Rock the Rainbow",
+			"subtitle": "S/S 2022",
+			"description": "<p><span>&#8226;</span>&nbsp;Peloton and Party</p><p><span>&#8226;</span>&nbsp;What’s the Pattern?</p><p><span>&#8226;</span>&nbsp;Knit Wit</p>",
+			"landingUrl": "/fabric-trends/spring-summer-2022-vol-12",
+			"volume": 12,
+			"createdAt": "2021-11-24T09:30:41Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1863_c72dc31f-653d-49f8-9894-f58a77c5b8f7_TrendingOn_Cover_Vol12.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1863_c72dc31f-653d-49f8-9894-f58a77c5b8f7_TrendingOn_Cover_Vol12.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1863_c72dc31f-653d-49f8-9894-f58a77c5b8f7_TrendingOn_Cover_Vol12.jpg",
+					"caption": ""
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#6DA9D2",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 1847,
+			"sharingKey": "fall-winter-spring-summer-2022-vol-11",
+			"sequence": 10,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "Weather Transition",
+			"subtitle": "F/W & S/S 2022",
+			"description": "<p><span>&#8226;</span>&nbsp;Contemporary Quilting</p><p><span>&#8226;</span>&nbsp;Floral Burst</p><p><span>&#8226;</span>&nbsp;Party On</p>\r\n",
+			"landingUrl": "/fabric-trends/fall-winter-spring-summer-2022-vol-11",
+			"volume": 11,
+			"createdAt": "2021-10-27T08:58:47Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1847_ef6fbd6c-5f70-4e49-b247-1720fa66194b_TrendingOn_Cover_Vol11.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1847_ef6fbd6c-5f70-4e49-b247-1720fa66194b_TrendingOn_Cover_Vol11.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1847_ef6fbd6c-5f70-4e49-b247-1720fa66194b_TrendingOn_Cover_Vol11.jpg",
+					"caption": "MAIN"
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#BDB0D0",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 1813,
+			"sharingKey": "fall-winter-2021-vol-10",
+			"sequence": 11,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "Winning Winter Updates",
+			"subtitle": "F/W 2021",
+			"description": "<p><span>&#8226;</span>&nbsp;Soft Power</p><p><span>&#8226;</span>&nbsp;Plaid for You</p><p><span>&#8226;</span>&nbsp;Feels Fur Real</p>\r\n",
+			"landingUrl": "/fabric-trends/fall-winter-2021-vol-10",
+			"volume": 10,
+			"createdAt": "2021-09-30T10:00:34Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1813_42d7d2ad-ad26-4054-bea0-78dc06325d08_TrendingOn_Cover_Vol10.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1813_42d7d2ad-ad26-4054-bea0-78dc06325d08_TrendingOn_Cover_Vol10.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1813_42d7d2ad-ad26-4054-bea0-78dc06325d08_TrendingOn_Cover_Vol10.jpg",
+					"caption": "MAIN"
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#6D6B3A",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 1800,
+			"sharingKey": "fall-winter-2021-vol-9",
+			"sequence": 12,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "The Great Escapes",
+			"subtitle": "F/W 2021",
+			"description": "<p><span>&#8226;</span>&nbsp;Supreme Comfort</p><p><span>&#8226;</span>&nbsp;Hyper Texture</p><p><span>&#8226;</span>&nbsp;All Day Decadence</p>\r\n",
+			"landingUrl": "/fabric-trends/fall-winter-2021-vol-9",
+			"volume": 9,
+			"createdAt": "2021-09-09T02:58:25Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-_a556fb61-7332-4eb3-abe8-ef5953a44970_TrendingOn_Cover_Vol09.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-_a556fb61-7332-4eb3-abe8-ef5953a44970_TrendingOn_Cover_Vol09.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-_a556fb61-7332-4eb3-abe8-ef5953a44970_TrendingOn_Cover_Vol09.jpg",
+					"caption": ""
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#BA9D78",
+					"pantoneNumber": ""
+				},
+				{
+					"hex": "#FFFFFF",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 1732,
+			"sharingKey": "fall-winter-2021-vol-8",
+			"sequence": 13,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "Seasonal Perspective",
+			"subtitle": "F/W 2021",
+			"description": "<p><span>&#8226;</span>&nbsp;Quilt that won’t Quit</p><p><span>&#8226;</span>&nbsp;Retro Checkerboard</p><p><span>&#8226;</span>&nbsp;Painterly Patterns</p>",
+			"landingUrl": "/fabric-trends/fall-winter-2021-vol-8",
+			"volume": 8,
+			"createdAt": "2021-08-05T02:02:30Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/trend_report_2021_fw_8_main.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/trend_report_2021_fw_8_main.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/trend_report_2021_fw_8_main.jpg",
+					"caption": null
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#9E6C39",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 1625,
+			"sharingKey": "fall-winter-2021-vol-7",
+			"sequence": 14,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "Autumnal Elements",
+			"subtitle": "F/W 2021",
+			"description": "<p><span>&#8226;</span>&nbsp;Rib knit</p><p><span>&#8226;</span>&nbsp;Glamorous Lace</p><p><span>&#8226;</span>&nbsp;Seeking Hide</p>",
+			"landingUrl": "/fabric-trends/fall-winter-2021-vol-7",
+			"volume": 7,
+			"createdAt": "2021-07-16T03:26:18Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/trend_report_2021_fw_7_main.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/trend_report_2021_fw_7_main.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/trend_report_2021_fw_7_main.jpg",
+					"caption": null
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#096544",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 1170,
+			"sharingKey": "fall-winter-2021-vol-6",
+			"sequence": 15,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "The New Classics",
+			"subtitle": "F/W 2021",
+			"description": "<p><span>&#8226;</span>&nbsp;Metallic Moment</p><p><span>&#8226;</span>&nbsp;Stony Neutrals</p><p><span>&#8226;</span>&nbsp;Sophisticated Tweeds</p>",
+			"landingUrl": "/fabric-trends/fall-winter-2021-vol-6",
+			"volume": 6,
+			"createdAt": "2021-06-17T06:51:37Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/trend_report_2021_fw_6_main.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/trend_report_2021_fw_6_main.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/trend_report_2021_fw_6_main.jpg",
+					"caption": null
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#352582",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 18,
+			"sharingKey": "pre-fall-2021-vol-5",
+			"sequence": 16,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "Essential Foundations",
+			"subtitle": "Pre-Fall 2021",
+			"description": "<p><span>&#8226;</span>&nbsp;Elevated Flannel</p><p><span>&#8226;</span>&nbsp;Satin Ensembles</p><p><span>&#8226;</span>&nbsp;90’s Denim</p>",
+			"landingUrl": "/fabric-trends/pre-fall-2021-vol-5",
+			"volume": 5,
+			"createdAt": "2021-06-04T10:00:15Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/trend_report_2021_pf_5_main.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/trend_report_2021_pf_5_main.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/trend_report_2021_pf_5_main.jpg",
+					"caption": null
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#977749",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 14,
+			"sharingKey": "spring-summer-fall-winter-2021-vol-4",
+			"sequence": 17,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "Athleisure 24/7",
+			"subtitle": "S/S & F/W 2021",
+			"description": "<p><span>&#8226;</span>&nbsp;SwatchOn is proud to be one of the first distributors of SPORSHiON, STYLEM KOREA’s athleisure fabric division.</p><p><span>&#8226;</span>&nbsp;All SPORSHiON textiles are designed to be high-quality, functional, and affordable – as they reflect locally-made prices.</p>",
+			"landingUrl": "/fabric-trends/spring-summer-fall-winter-2021-vol-4",
+			"volume": 4,
+			"createdAt": "2021-06-04T10:00:15Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/trend_report_2021_fw_4_main.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/trend_report_2021_fw_4_main.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/trend_report_2021_fw_4_main.jpg",
+					"caption": null
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#3E3E35",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 10,
+			"sharingKey": "spring-summer-2021-vol-3",
+			"sequence": 18,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "Summer Dreams",
+			"subtitle": "Summer 2021",
+			"description": "<p><span>&#8226;</span>&nbsp;Cottage Core</p><p><span>&#8226;</span>&nbsp;80’s Tennis Court Cool</p><p><span>&#8226;</span>&nbsp;Lingerie-inspired Swimwear</p>",
+			"landingUrl": "/fabric-trends/spring-summer-2021-vol-3",
+			"volume": 3,
+			"createdAt": "2021-06-04T10:00:15Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/trend_report_2021_ss_3_main.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/trend_report_2021_ss_3_main.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/trend_report_2021_ss_3_main.jpg",
+					"caption": null
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#F2F4FF",
+					"pantoneNumber": ""
+				}
+			]
+		}
+	],
+	"total": 20,
+	"perPage": 18,
+	"page": 1
+}

@@ -1,13 +1,13 @@
 @import url("//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css");
 
 div,
-nav,
 p,
 input,
 button,
 a,
 span {
   font-family: 'Spoqa Han Sans Neo';
+  box-sizing: border-box;
 }
 
 ::-webkit-scrollbar {
@@ -20,14 +20,14 @@ span {
 
 :root {
   --app-header-height: 56px;
+  --border-dark: #707070;
+  --calm-purple: #7e71dd;
+  --calm-purple-bg-lv0: rgba(126,113,221,0.2);
   --filter-groups-width: 246px;
   --gs-22: #222;
   --gs-44: #444;
   --gs-f7: #f7f7f7;
   --white: #fff;
-  --calm-purple: #7e71dd;
-  --border-dark: #707070;
-  --calm-purple-bg-lv0: rgba(126,113,221,0.2);
 }
 
 

@@ -8,9 +8,10 @@
 </template>
 
 <script lang="ts" setup>
-import { getMarketingItemsJson } from '@/apis/marketingItems.js';
+import { getMarketingItemsJson } from '@/apis/marketingItems';
 import { MarketingItemsCategory } from '@/components';
 import { ComputedRef } from 'vue';
+import { requestMarketingItemsJsonType, responseMarketingItemsType } from '@/interface/marketingItems';
 
 const route = useRoute();
 const router = useRouter();
@@ -26,29 +27,59 @@ const getCurrentCategory: ComputedRef<string> = computed(() => {
   return currentCategory as string;
 });
 
+const marketingItems: responseMarketingItemsType = reactive({
+  items: [],
+  page: 1,
+  perPage: 1,
+  total: 1,
+});
+
+
+const setMarketingItems = async (itemType: string): Promise<void> => {
+  const searchRequirement: requestMarketingItemsJsonType = {
+    itemType: itemType,
+    page: 1,
+  };
+
+  try {
+    const res = await getMarketingItemsJson(searchRequirement);
+    const resData: responseMarketingItemsType = res.data;
+
+    const {
+      items,
+      page,
+      perPage,
+      total
+    } = resData;
+
+    marketingItems.items = items;
+    marketingItems.page = page;
+    marketingItems.perPage = perPage;
+    marketingItems.total = total;
+  } catch(error) {
+    console.log(error, '에러');
+  }
+};
+
+onMounted(() => {
+  setMarketingItems(getCurrentCategory.value);
+});
+
 const selectCategory = (key: string): void => {
+  const isCurrentCategory = getCurrentCategory.value === key;
+  if(isCurrentCategory) {
+    return;
+  };
+
   router.replace({
     path: route.path,
     query: {
       'item_type': key
     }
-  })
-}
+  });
 
-onMounted(async () => {
-  const searchRequirement = {
-    itemType: 'all',
-    page: 2,
-  }
-
-  try {
-    const res = await getMarketingItemsJson(searchRequirement);
-    console.log(res.data, '확인');
-  } catch(error) {
-    console.log(error, '에러');
-  }
-})
-
+  setMarketingItems(key);
+};
 
 </script>
 
@@ -56,7 +87,6 @@ onMounted(async () => {
 .marketing-item-list-container {
   max-width: 1920px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 @media screen and (min-width: 1200px) {

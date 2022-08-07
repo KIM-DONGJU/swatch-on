@@ -1,7 +1,7 @@
 <template>
   <div class="marketing-items-category-container">
     <div
-      class="category"
+      class="marketing-items-category"
       :class="getSelectCategoryStyle(key)"
       v-for="(category, key) in categories"
       :key="key"
@@ -49,7 +49,7 @@ const getSelectCategoryStyle = (key: string): marketingItemsSelectCategoryStyleT
   gap: 32px;
   padding-bottom: 8px;
 
-  .category {
+  .marketing-items-category {
     background-color: var(--white);
     color: var(--border-dark);
     box-shadow: 0 3px 6px rgb(0 0 0 / 16%);

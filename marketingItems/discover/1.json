@@ -1,0 +1,3805 @@
+{
+	"items": [
+		{
+			"id": 1999,
+			"sharingKey": "tOkF0eterlRxOvcfcja5sA",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "type_suggestion",
+			"title": "Soft Satin",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/wholesale-fabric?weightGteq=100&categoryIds=180&patternIds=74&page=1&from=/wholesale-fabric",
+			"createdAt": "2022-07-11T23:48:08Z",
+			"updatedAt": "2022-07-12T00:11:17Z",
+			"images": [],
+			"products": [
+				{
+					"id": 396893,
+					"code": "PD-00396893",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "six",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/4640a88c-361b-4099-8702-38685d062b30.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/4640a88c-361b-4099-8702-38685d062b30.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/4640a88c-361b-4099-8702-38685d062b30.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 45,
+							"name": "Sky Blue",
+							"sequence": 10,
+							"status": "visible",
+							"description": "명도 높은 블루 계열색",
+							"hexcode": "#69B3E7",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 29911,
+						"code": "QL-029911",
+						"status": "published",
+						"supplierId": 2012,
+						"landingUrl": "/wholesale-fabric/Polyester-Woven-Satin-29911",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 55,
+							"weight": 120,
+							"thickness": 0.17
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-029911_29645733-348d-4d77-a7b2-92e11645f30b_trim.8CFC5F6D-CD6B-410C-9CCD-F2D59C45A9A5-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-029911_29645733-348d-4d77-a7b2-92e11645f30b_trim.8CFC5F6D-CD6B-410C-9CCD-F2D59C45A9A5.mp4"
+						},
+						"contents": [
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5,
+								"salePrice": 5,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.62,
+								"salePrice": 5.62,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 19
+					}
+				},
+				{
+					"id": 389529,
+					"code": "PD-00389529",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "H2",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/50b92060-4cb0-40c2-9157-f65cbf9c562c.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/50b92060-4cb0-40c2-9157-f65cbf9c562c.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/50b92060-4cb0-40c2-9157-f65cbf9c562c.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 10,
+							"name": "Ivory / Cream",
+							"sequence": 7,
+							"status": "visible",
+							"hexcode": "#F2F0EB",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 29084,
+						"code": "QL-029084",
+						"status": "published",
+						"supplierId": 1490,
+						"landingUrl": "/wholesale-fabric/Polyester-PU+%28Polyurethane%29-Woven-Satin-29084",
+						"stretchability": "stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 40,
+						"bulkMoq": 400,
+						"quoteMoq": 800,
+						"metric": {
+							"width": 47,
+							"weight": 227,
+							"thickness": 0.35
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-029084_2a7703ad-534f-4814-8d51-f6b32397c313_trim.703D077C-AC50-4EA3-B927-7C22E204CC7F-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-029084_2a7703ad-534f-4814-8d51-f6b32397c313_trim.703D077C-AC50-4EA3-B927-7C22E204CC7F.mp4"
+						},
+						"contents": [
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 97
+							},
+							{
+								"id": 26,
+								"name": "PU (Polyurethane)",
+								"abbreviation": "PU",
+								"ratio": 3
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 6.69,
+								"salePrice": 6.69,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 7.31,
+								"salePrice": 7.31,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 17
+					}
+				},
+				{
+					"id": 403247,
+					"code": "PD-00403247",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "303",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/b93a5fde-6da7-423f-8e62-1abe630aeea6.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/b93a5fde-6da7-423f-8e62-1abe630aeea6.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/b93a5fde-6da7-423f-8e62-1abe630aeea6.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 32,
+							"name": "Pink",
+							"sequence": 13,
+							"status": "visible",
+							"description": "가장 밝은 핑크색",
+							"hexcode": "#F277C6",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 30312,
+						"code": "QL-030312",
+						"status": "published",
+						"supplierId": 866,
+						"landingUrl": "/wholesale-fabric/Polyester-Woven-Satin-30312",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 60,
+						"bulkMoq": 600,
+						"quoteMoq": 1200,
+						"metric": {
+							"width": 58,
+							"weight": 104,
+							"thickness": 0.24
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-030312_644a0c67-1831-488d-aa84-b60aa7ffacf8_trim.29398B98-D68A-4A05-A5FD-EA72B6BB4014-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-030312_644a0c67-1831-488d-aa84-b60aa7ffacf8_trim.29398B98-D68A-4A05-A5FD-EA72B6BB4014.mp4"
+						},
+						"contents": [
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 3.38,
+								"salePrice": 3.38,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4,
+								"salePrice": 4,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 15
+					}
+				},
+				{
+					"id": 396841,
+					"code": "PD-00396841",
+					"status": "excluded",
+					"newColor": false,
+					"labelColorNumber": "9",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/57d0733e-51e7-484f-ad57-ad6cc922d4c2.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/57d0733e-51e7-484f-ad57-ad6cc922d4c2.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/57d0733e-51e7-484f-ad57-ad6cc922d4c2.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 14,
+							"name": "Lime",
+							"sequence": 8,
+							"status": "visible",
+							"description": "일반적인 연두 컬러,\r\n블루빛이 도는 민트색상과 헷갈리지 않도록 함",
+							"hexcode": "#B9EAB3",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 29914,
+						"code": "QL-029914",
+						"status": "published",
+						"supplierId": 2012,
+						"landingUrl": "/wholesale-fabric/Acetate-Woven-Satin-29914",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 40,
+						"bulkMoq": 400,
+						"quoteMoq": 800,
+						"metric": {
+							"width": 53,
+							"weight": 112,
+							"thickness": 0.15
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-029914_c015f9bd-fe26-4558-b7d0-e220ed723b4b_trim.D52C674B-805B-4637-9E49-1EB02B76B00B-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-029914_c015f9bd-fe26-4558-b7d0-e220ed723b4b_trim.D52C674B-805B-4637-9E49-1EB02B76B00B.mp4"
+						},
+						"contents": [
+							{
+								"id": 1,
+								"name": "Acetate",
+								"abbreviation": "AC",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.92,
+								"salePrice": 5.92,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 6.54,
+								"salePrice": 6.54,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 18
+					}
+				},
+				{
+					"id": 397723,
+					"code": "PD-00397723",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "31",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/b548cb38-e5a6-4c3d-b511-48b25a39b763.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/b548cb38-e5a6-4c3d-b511-48b25a39b763.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/b548cb38-e5a6-4c3d-b511-48b25a39b763.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 16,
+							"name": "Green",
+							"sequence": 17,
+							"status": "visible",
+							"hexcode": "#349C5E",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": 0,
+					"quality": {
+						"id": 29990,
+						"code": "QL-029990",
+						"status": "dropped",
+						"supplierId": 1021,
+						"landingUrl": "/wholesale-fabric/Polyester-Woven-Satin-29990",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 58,
+							"weight": 240,
+							"thickness": 0.4
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-029990_d2a1e178-cb3f-423b-a71c-54b913d5ceec_trim.3E59F1EF-0D2A-4A6B-88D0-97564510AD27-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-029990_d2a1e178-cb3f-423b-a71c-54b913d5ceec_trim.3E59F1EF-0D2A-4A6B-88D0-97564510AD27.mp4"
+						},
+						"contents": [
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.54,
+								"salePrice": 4.54,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.15,
+								"salePrice": 5.15,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 43
+					}
+				},
+				{
+					"id": 397448,
+					"code": "PD-00397448",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "3",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/fd640949-a34b-403c-a88a-5360fcf987ca.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/fd640949-a34b-403c-a88a-5360fcf987ca.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/fd640949-a34b-403c-a88a-5360fcf987ca.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 16,
+							"name": "Green",
+							"sequence": 17,
+							"status": "visible",
+							"hexcode": "#349C5E",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 29956,
+						"code": "QL-029956",
+						"status": "published",
+						"supplierId": 2012,
+						"landingUrl": "/wholesale-fabric/Polyester-Viscose+Rayon-Woven-Satin-29956",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 40,
+						"bulkMoq": 400,
+						"quoteMoq": 800,
+						"metric": {
+							"width": 55,
+							"weight": 180,
+							"thickness": 0.32
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-029956_808cb03d-de16-458b-acee-05feb2fd1d3e_trim.28AA0A05-7230-4DC6-8FDF-BD4784BEE8EB-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-029956_808cb03d-de16-458b-acee-05feb2fd1d3e_trim.28AA0A05-7230-4DC6-8FDF-BD4784BEE8EB.mp4"
+						},
+						"contents": [
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 58
+							},
+							{
+								"id": 28,
+								"name": "Viscose Rayon",
+								"abbreviation": "VI",
+								"ratio": 42
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 6.08,
+								"salePrice": 6.08,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 6.69,
+								"salePrice": 6.69,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 18
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1998,
+			"sharingKey": "qXsyxuT6wK9Et54PcaH2jg",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "eyes_on",
+			"title": "Soft tactile",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/eyeson-fabric-trends/qXsyxuT6wK9Et54PcaH2jg",
+			"createdAt": "2022-07-05T00:43:18Z",
+			"updatedAt": "2022-07-05T01:16:00Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1998_6a1a3a71-4dfc-44bc-b9fb-eeeecae8fb11_soft+tactile_1.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1998_6a1a3a71-4dfc-44bc-b9fb-eeeecae8fb11_soft+tactile_1.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1998_6a1a3a71-4dfc-44bc-b9fb-eeeecae8fb11_soft+tactile_1.jpg",
+					"caption": ""
+				}
+			],
+			"products": [
+				{
+					"id": 381458,
+					"code": "PD-00381458",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "1",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/6011937c-4a66-490a-af71-d839f0cfa95b.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/6011937c-4a66-490a-af71-d839f0cfa95b.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/6011937c-4a66-490a-af71-d839f0cfa95b.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 10,
+							"name": "Ivory / Cream",
+							"sequence": 7,
+							"status": "visible",
+							"hexcode": "#F2F0EB",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": 0,
+					"quality": {
+						"id": 28928,
+						"code": "QL-028928",
+						"status": "dropped",
+						"supplierId": 1500,
+						"landingUrl": "/wholesale-fabric/Cotton-Woven-Clip+Jacquard-28928",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 56,
+							"weight": 96,
+							"thickness": 0.28
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-028928_0205a84f-5ca9-495a-b6ee-27c5acfd0e30_trim.FE5C0ECA-A96E-49D1-AD11-92A30DE6433E-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-028928_0205a84f-5ca9-495a-b6ee-27c5acfd0e30_trim.FE5C0ECA-A96E-49D1-AD11-92A30DE6433E.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.92,
+								"salePrice": 4.92,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.54,
+								"salePrice": 5.54,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 14
+					}
+				},
+				{
+					"id": 380035,
+					"code": "PD-00380035",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "238",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/491ac388-9807-4a7a-8784-525e34aca9c3.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/491ac388-9807-4a7a-8784-525e34aca9c3.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/491ac388-9807-4a7a-8784-525e34aca9c3.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 13,
+							"name": "Brick",
+							"sequence": 24,
+							"status": "visible",
+							"hexcode": "#C25A3C",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 28919,
+						"code": "QL-028919",
+						"status": "published",
+						"supplierId": 1420,
+						"landingUrl": "/wholesale-fabric/Polyester-PU+%28Polyurethane%29-Viscose+Rayon-Knit-Rib-Brushed+%28Front%29-28919",
+						"stretchability": "stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 44,
+							"weight": 268,
+							"thickness": 0.71
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-028919_f612e766-259b-4a58-94e5-ba5d834bbb6c_trim.65CB1515-F2DC-494B-8251-47844B731EDE-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-028919_f612e766-259b-4a58-94e5-ba5d834bbb6c_trim.65CB1515-F2DC-494B-8251-47844B731EDE.mp4"
+						},
+						"contents": [
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 73
+							},
+							{
+								"id": 26,
+								"name": "PU (Polyurethane)",
+								"abbreviation": "PU",
+								"ratio": 6
+							},
+							{
+								"id": 28,
+								"name": "Viscose Rayon",
+								"abbreviation": "VI",
+								"ratio": 21
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.54,
+								"salePrice": 4.54,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.15,
+								"salePrice": 5.15,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 32
+					}
+				},
+				{
+					"id": 371805,
+					"code": "PD-00371805",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "3",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/2c60a265-a998-4241-b64b-562f79bfb8fc.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/2c60a265-a998-4241-b64b-562f79bfb8fc.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/2c60a265-a998-4241-b64b-562f79bfb8fc.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 54,
+							"name": "Forest",
+							"sequence": 35,
+							"status": "visible",
+							"description": "명도 높은 진녹 색상",
+							"hexcode": "#194B46",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": 0,
+					"quality": {
+						"id": 28388,
+						"code": "QL-028388",
+						"status": "published",
+						"supplierId": 2218,
+						"landingUrl": "/wholesale-fabric/Cotton-Woven-Corduroy-Printed-28388",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 40,
+						"bulkMoq": 400,
+						"quoteMoq": 800,
+						"metric": {
+							"width": 57,
+							"weight": 300,
+							"thickness": 0.83
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-028388_c89766c3-ee26-405c-bb95-fecc0b686094_trim.8255FA06-2FDD-45FF-9984-56C3831656E3-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-028388_c89766c3-ee26-405c-bb95-fecc0b686094_trim.8255FA06-2FDD-45FF-9984-56C3831656E3.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 6.08,
+								"salePrice": 6.08,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 6.69,
+								"salePrice": 6.69,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 5
+					}
+				},
+				{
+					"id": 375994,
+					"code": "PD-00375994",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "7",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/5eac3d29-5290-4d16-955a-d91d148ccd6f.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/5eac3d29-5290-4d16-955a-d91d148ccd6f.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/5eac3d29-5290-4d16-955a-d91d148ccd6f.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 23,
+							"name": "Navy",
+							"sequence": 28,
+							"status": "visible",
+							"description": "명도 높은 블루 계열색",
+							"hexcode": "#002F6C",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 28654,
+						"code": "QL-028654",
+						"status": "published",
+						"supplierId": 1340,
+						"landingUrl": "/wholesale-fabric/Polyester-PU+%28Polyurethane%29-Knit-Velvet-28654",
+						"stretchability": "stretchable",
+						"printable": true,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 58,
+							"weight": 256,
+							"thickness": 0.75
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-028654_4d3b9f3e-dad7-4011-a001-cf1978df5d5f_trim.11B4186A-3D9D-4671-83DF-379775170829-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-028654_4d3b9f3e-dad7-4011-a001-cf1978df5d5f_trim.11B4186A-3D9D-4671-83DF-379775170829.mp4"
+						},
+						"contents": [
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 90
+							},
+							{
+								"id": 26,
+								"name": "PU (Polyurethane)",
+								"abbreviation": "PU",
+								"ratio": 10
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.54,
+								"salePrice": 4.54,
+								"printingPrice": 3.23
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.15,
+								"salePrice": 5.15,
+								"printingPrice": 3.23
+							}
+						},
+						"productsNum": 19
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1997,
+			"sharingKey": "dQszRVPy5ldG0-7UNJFmRQ",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "eyes_on",
+			"title": "Plush tricot velvet",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/wholesale-fabric/28244?product_id=370810",
+			"createdAt": "2022-07-05T00:43:02Z",
+			"updatedAt": "2022-07-05T01:15:52Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1997_e715376d-01cb-41c9-adf7-66ebd9b495cf_QL-028244_Fabric_P.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1997_e715376d-01cb-41c9-adf7-66ebd9b495cf_QL-028244_Fabric_P.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1997_e715376d-01cb-41c9-adf7-66ebd9b495cf_QL-028244_Fabric_P.jpg",
+					"caption": ""
+				}
+			],
+			"products": [
+				{
+					"id": 370810,
+					"code": "PD-00370810",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "8",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/78986546-f3aa-46d3-ad25-81f4b145bd32.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/78986546-f3aa-46d3-ad25-81f4b145bd32.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/78986546-f3aa-46d3-ad25-81f4b145bd32.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 54,
+							"name": "Forest",
+							"sequence": 35,
+							"status": "visible",
+							"description": "명도 높은 진녹 색상",
+							"hexcode": "#194B46",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 28244,
+						"code": "QL-028244",
+						"status": "published",
+						"supplierId": 2237,
+						"landingUrl": "/wholesale-fabric/Polyester-PU+%28Polyurethane%29-Knit-Velvet-28244",
+						"stretchability": "stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 60,
+							"weight": 192,
+							"thickness": 0.74
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-028244_be8d1169-43b3-4b20-a947-a99bdf8f2951_trim.DAF8C441-44E4-4C95-9948-0CE36CD52E4D-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-028244_be8d1169-43b3-4b20-a947-a99bdf8f2951_trim.DAF8C441-44E4-4C95-9948-0CE36CD52E4D.mp4"
+						},
+						"contents": [
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 91
+							},
+							{
+								"id": 26,
+								"name": "PU (Polyurethane)",
+								"abbreviation": "PU",
+								"ratio": 9
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.92,
+								"salePrice": 4.92,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.54,
+								"salePrice": 5.54,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 10
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1996,
+			"sharingKey": "-4dPYmVR_qsEDGuNOirS9A",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "eyes_on",
+			"title": "Tactile striped clip jacquard",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/wholesale-fabric/26456?product_id=335570",
+			"createdAt": "2022-07-05T00:42:20Z",
+			"updatedAt": "2022-07-05T01:15:46Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1996_1e578e34-c324-429d-b844-ca450e00049f_QL-026456_Fabric_P_2.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1996_1e578e34-c324-429d-b844-ca450e00049f_QL-026456_Fabric_P_2.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1996_1e578e34-c324-429d-b844-ca450e00049f_QL-026456_Fabric_P_2.jpg",
+					"caption": ""
+				}
+			],
+			"products": [
+				{
+					"id": 335570,
+					"code": "PD-00335570",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "1",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/a0bfc0db-da1f-41de-b798-73dea01a8f3c.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/a0bfc0db-da1f-41de-b798-73dea01a8f3c.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/a0bfc0db-da1f-41de-b798-73dea01a8f3c.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 9,
+							"name": "Brown",
+							"sequence": 33,
+							"status": "visible",
+							"hexcode": "#6F4433",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 26456,
+						"code": "QL-026456",
+						"status": "published",
+						"supplierId": 2198,
+						"landingUrl": "/wholesale-fabric/Cotton-Linen-Woven-Clip+Jacquard-26456",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 54,
+							"weight": 168,
+							"thickness": 0.39
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-026456_fbd99915-6ba1-405f-9536-982457278f51_trim.80ECED4C-EC3C-447B-8C06-9559626328DE-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-026456_fbd99915-6ba1-405f-9536-982457278f51_trim.80ECED4C-EC3C-447B-8C06-9559626328DE.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 85
+							},
+							{
+								"id": 14,
+								"name": "Linen",
+								"abbreviation": "LI",
+								"ratio": 15
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.54,
+								"salePrice": 4.54,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.15,
+								"salePrice": 5.15,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 10
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1995,
+			"sharingKey": "GHsXxKJvV4dTHimMjLGGBQ",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "eyes_on",
+			"title": "Multi-colored prince of wales flannel",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/wholesale-fabric/29659?product_id=392747",
+			"createdAt": "2022-07-05T00:40:27Z",
+			"updatedAt": "2022-07-05T01:15:40Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1995_5c139204-c3f3-42fb-8f13-d265ff359243_QL-029659_Back_P.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1995_5c139204-c3f3-42fb-8f13-d265ff359243_QL-029659_Back_P.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1995_5c139204-c3f3-42fb-8f13-d265ff359243_QL-029659_Back_P.jpg",
+					"caption": ""
+				}
+			],
+			"products": [
+				{
+					"id": 392747,
+					"code": "PD-00392747",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "2",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/86690924-13a2-49ae-8d4c-7391305f9e50.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/86690924-13a2-49ae-8d4c-7391305f9e50.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/86690924-13a2-49ae-8d4c-7391305f9e50.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 23,
+							"name": "Navy",
+							"sequence": 28,
+							"status": "visible",
+							"description": "명도 높은 블루 계열색",
+							"hexcode": "#002F6C",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 29659,
+						"code": "QL-029659",
+						"status": "published",
+						"supplierId": 1029,
+						"landingUrl": "/wholesale-fabric/Polyester-Wool-Woven-Flannel-29659",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 58,
+							"weight": 272,
+							"thickness": 0.69
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-029659_f4d73b70-e808-4b42-ad2f-1083a4e02df7_trim.43C35A68-C63A-43AA-A6BE-AF22EA69716E-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-029659_f4d73b70-e808-4b42-ad2f-1083a4e02df7_trim.43C35A68-C63A-43AA-A6BE-AF22EA69716E.mp4"
+						},
+						"contents": [
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 90
+							},
+							{
+								"id": 34,
+								"name": "Wool",
+								"abbreviation": "Wool",
+								"ratio": 10
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.54,
+								"salePrice": 4.54,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.15,
+								"salePrice": 5.15,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 5
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1994,
+			"sharingKey": "NhD9Zsf-dahZ59IH-YXD6w",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "eyes_on",
+			"title": "Soft plush",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/eyeson-fabric-trends/NhD9Zsf-dahZ59IH-YXD6w",
+			"createdAt": "2022-07-05T00:40:11Z",
+			"updatedAt": "2022-07-05T01:15:33Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1994_6b3d27e3-bcc7-4294-9515-384dd8a9b232_soft+plush_2.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1994_6b3d27e3-bcc7-4294-9515-384dd8a9b232_soft+plush_2.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1994_6b3d27e3-bcc7-4294-9515-384dd8a9b232_soft+plush_2.jpg",
+					"caption": ""
+				}
+			],
+			"products": [
+				{
+					"id": 381451,
+					"code": "PD-00381451",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "6",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/ef2193ff-eb1a-4523-83a6-387c182c9874.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/ef2193ff-eb1a-4523-83a6-387c182c9874.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/ef2193ff-eb1a-4523-83a6-387c182c9874.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 47,
+							"name": "Mustard Yellow",
+							"sequence": 25,
+							"status": "visible",
+							"hexcode": "#D4AE40",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 28929,
+						"code": "QL-028929",
+						"status": "dropped",
+						"supplierId": 1500,
+						"landingUrl": "/wholesale-fabric/Cotton-Woven-Clip+Jacquard-28929",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 56,
+							"weight": 128,
+							"thickness": 0.26
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-028929_dad6d1e5-e214-4310-9e40-339cc72e2f31_trim.23D8FDB2-1E90-4E5A-950D-54AC86F0169F-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-028929_dad6d1e5-e214-4310-9e40-339cc72e2f31_trim.23D8FDB2-1E90-4E5A-950D-54AC86F0169F.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.77,
+								"salePrice": 4.77,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.38,
+								"salePrice": 5.38,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 12
+					}
+				},
+				{
+					"id": 398079,
+					"code": "PD-00398079",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "8",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/5ba0c86d-6c60-4844-bb98-1a14866ae453.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/5ba0c86d-6c60-4844-bb98-1a14866ae453.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/5ba0c86d-6c60-4844-bb98-1a14866ae453.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 6,
+							"name": "Burgundy",
+							"sequence": 32,
+							"status": "visible",
+							"hexcode": "#77202F",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 29952,
+						"code": "QL-029952",
+						"status": "published",
+						"supplierId": 1426,
+						"landingUrl": "/wholesale-fabric/Cotton-Woven-Corduroy-29952",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 40,
+						"bulkMoq": 400,
+						"quoteMoq": 800,
+						"metric": {
+							"width": 58,
+							"weight": 304,
+							"thickness": 0.84
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-029952_9ae8f90c-793b-4282-989a-912610112738_trim.415EC336-A76E-4607-B2C4-0815F4D411A2-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-029952_9ae8f90c-793b-4282-989a-912610112738_trim.415EC336-A76E-4607-B2C4-0815F4D411A2.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.69,
+								"salePrice": 5.69,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 6.31,
+								"salePrice": 6.31,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 20
+					}
+				},
+				{
+					"id": 377850,
+					"code": "PD-00377850",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "109",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/0ec082bd-990a-48dd-a629-5267f001300f.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/0ec082bd-990a-48dd-a629-5267f001300f.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/0ec082bd-990a-48dd-a629-5267f001300f.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 43,
+							"name": "Deep Purple",
+							"sequence": 30,
+							"status": "visible",
+							"description": "가장 짙은보라 계열색,\r\n검정색에 가까운 보라빛",
+							"hexcode": "#440099",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 1.54,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 28766,
+						"code": "QL-028766",
+						"status": "published",
+						"supplierId": 1839,
+						"landingUrl": "/wholesale-fabric/Polyester-Viscose+Rayon-Wool-Woven-Flannel-28766",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 58,
+							"weight": 192,
+							"thickness": 0.48
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-028766_9483a6a1-8af1-4294-b428-541a57ee1ea0_trim.E45A8E61-0BE6-47E6-B809-89A7F89D3C23-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-028766_9483a6a1-8af1-4294-b428-541a57ee1ea0_trim.E45A8E61-0BE6-47E6-B809-89A7F89D3C23.mp4"
+						},
+						"contents": [
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 15
+							},
+							{
+								"id": 28,
+								"name": "Viscose Rayon",
+								"abbreviation": "VI",
+								"ratio": 35
+							},
+							{
+								"id": 34,
+								"name": "Wool",
+								"abbreviation": "Wool",
+								"ratio": 50
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.15,
+								"salePrice": 4.15,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.77,
+								"salePrice": 4.77,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 28
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1993,
+			"sharingKey": "TrKNE01caqNo-Ix8_y_q1Q",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "eyes_on",
+			"title": "Gently textured jacquard",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/wholesale-fabric/28877?product_id=382071",
+			"createdAt": "2022-07-05T00:39:54Z",
+			"updatedAt": "2022-07-05T01:11:26Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1993_f448a065-b639-4226-987c-fd0e50cb8d7b_QL-028877_Back_P.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1993_f448a065-b639-4226-987c-fd0e50cb8d7b_QL-028877_Back_P.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1993_f448a065-b639-4226-987c-fd0e50cb8d7b_QL-028877_Back_P.jpg",
+					"caption": ""
+				}
+			],
+			"products": [
+				{
+					"id": 382071,
+					"code": "PD-00382071",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "8",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/3342b82f-c018-41b5-a658-7df655f6cac8.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/3342b82f-c018-41b5-a658-7df655f6cac8.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/3342b82f-c018-41b5-a658-7df655f6cac8.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 13,
+							"name": "Brick",
+							"sequence": 24,
+							"status": "visible",
+							"hexcode": "#C25A3C",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 28877,
+						"code": "QL-028877",
+						"status": "published",
+						"supplierId": 2055,
+						"landingUrl": "/wholesale-fabric/Polyester-Woven-Clip+Jacquard-28877",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 56,
+							"weight": 132,
+							"thickness": 0.31
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-028877_4ee97522-1a22-41dc-805a-1af6adf5880c_trim.4CA5B863-2179-4FAE-938F-688F33065632-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-028877_4ee97522-1a22-41dc-805a-1af6adf5880c_trim.4CA5B863-2179-4FAE-938F-688F33065632.mp4"
+						},
+						"contents": [
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.31,
+								"salePrice": 5.31,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.92,
+								"salePrice": 5.92,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 8
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1985,
+			"sharingKey": "3E82n42bih5sOdC3BfP7oQ",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "type_suggestion",
+			"title": "Cotton Core Jersey",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/wholesale-fabric?weightLteq=200&categoryIds=199&contentIds=11&contentIdsConjunction=need&patternIds=74&from=/wholesale-fabric",
+			"createdAt": "2022-06-14T05:44:43Z",
+			"updatedAt": "2022-06-14T08:07:19Z",
+			"images": [],
+			"products": [
+				{
+					"id": 387497,
+					"code": "PD-00387497",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "A5",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/93619684-4691-457c-a30d-a957e1d892cb.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/93619684-4691-457c-a30d-a957e1d892cb.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/93619684-4691-457c-a30d-a957e1d892cb.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 6,
+							"name": "Burgundy",
+							"sequence": 32,
+							"status": "visible",
+							"hexcode": "#77202F",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 29273,
+						"code": "QL-029273",
+						"status": "published",
+						"supplierId": 1105,
+						"landingUrl": "/wholesale-fabric/Cotton-Knit-Jersey-High+Twist+Yarn-29273",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 54,
+							"weight": 124,
+							"thickness": 0.44
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-029273_d84ad2f4-f589-4db4-9ca4-33a26e8cc64d_trim.C9A77BD5-CF37-40EA-9D7D-95243B86542F-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-029273_d84ad2f4-f589-4db4-9ca4-33a26e8cc64d_trim.C9A77BD5-CF37-40EA-9D7D-95243B86542F.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.15,
+								"salePrice": 4.15,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.77,
+								"salePrice": 4.77,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 49
+					}
+				},
+				{
+					"id": 302021,
+					"code": "PD-00302021",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "51",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/9cfa669c-3faa-449a-9cc4-3bca083b5c47.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/9cfa669c-3faa-449a-9cc4-3bca083b5c47.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/9cfa669c-3faa-449a-9cc4-3bca083b5c47.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 13,
+							"name": "Brick",
+							"sequence": 24,
+							"status": "visible",
+							"hexcode": "#C25A3C",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 24800,
+						"code": "QL-024800",
+						"status": "published",
+						"supplierId": 1092,
+						"landingUrl": "/wholesale-fabric/Cotton-Knit-Jersey-Mercerized-24800",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 58,
+							"weight": 184,
+							"thickness": 0.48
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-024800_0c704a53-f2e5-477a-87e2-8fb0401f1059_trim.B35C796C-3A85-4D46-8FA7-7A00ADD1D28F-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-024800_0c704a53-f2e5-477a-87e2-8fb0401f1059_trim.B35C796C-3A85-4D46-8FA7-7A00ADD1D28F.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.54,
+								"salePrice": 4.54,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.15,
+								"salePrice": 5.15,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 73
+					}
+				},
+				{
+					"id": 416918,
+					"code": "PD-00416918",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "A4532",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/45104f9b-a20d-4258-b6b2-6326e0faa489.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/45104f9b-a20d-4258-b6b2-6326e0faa489.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/45104f9b-a20d-4258-b6b2-6326e0faa489.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 15,
+							"name": "Yellow",
+							"sequence": 16,
+							"status": "visible",
+							"hexcode": "#FEE715",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 31704,
+						"code": "QL-031704",
+						"status": "published",
+						"supplierId": 909,
+						"landingUrl": "/wholesale-fabric/Cotton-Recycled+Polyester-Knit-Jersey-Recycled+Yarn-31704",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 60,
+							"weight": 176,
+							"thickness": 0.58
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-031704_735b9649-5685-487f-b2dc-5234bdd481c8_trim.FA59D5BB-A57F-424B-AF4D-DBCD2C14F503-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-031704_735b9649-5685-487f-b2dc-5234bdd481c8_trim.FA59D5BB-A57F-424B-AF4D-DBCD2C14F503.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 72
+							},
+							{
+								"id": 55,
+								"name": "Recycled Polyester",
+								"abbreviation": "Recycled PL",
+								"ratio": 28
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.54,
+								"salePrice": 4.54,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.15,
+								"salePrice": 5.15,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 32
+					}
+				},
+				{
+					"id": 386747,
+					"code": "PD-00386747",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "510",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/514a16fa-0443-40f5-9559-a8d9fa37ae55.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/514a16fa-0443-40f5-9559-a8d9fa37ae55.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/514a16fa-0443-40f5-9559-a8d9fa37ae55.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 18,
+							"name": "Olive Green",
+							"sequence": 26,
+							"status": "visible",
+							"description": "낮은 채도의 그린톤에서 노란색이 섞인 컬러로 분류,\r\n비슷한 명도에서 노란색이 많은 것은 머스타드(mustard yellow)으로 분류",
+							"hexcode": "#4F632D",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 29098,
+						"code": "QL-029098",
+						"status": "published",
+						"supplierId": 1105,
+						"landingUrl": "/wholesale-fabric/Cotton-Knit-Jersey-Enzyme-Bio-29098",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 58,
+							"weight": 144,
+							"thickness": 0.28
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-029098_a6230e88-7fd4-4801-95b0-46906b4eb44e_trim.B1DB59D4-0BA7-423C-9E98-F823471985D9-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-029098_a6230e88-7fd4-4801-95b0-46906b4eb44e_trim.B1DB59D4-0BA7-423C-9E98-F823471985D9.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.62,
+								"salePrice": 4.62,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.23,
+								"salePrice": 5.23,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 71
+					}
+				},
+				{
+					"id": 309453,
+					"code": "PD-00309453",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "414브라운(A) #15",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/576c7881-f27a-4b76-bd46-c9005ad5c5e9.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/576c7881-f27a-4b76-bd46-c9005ad5c5e9.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/576c7881-f27a-4b76-bd46-c9005ad5c5e9.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 41,
+							"name": "Camel",
+							"sequence": 34,
+							"status": "visible",
+							"hexcode": "#B28330",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 25251,
+						"code": "QL-025251",
+						"status": "published",
+						"supplierId": 1760,
+						"landingUrl": "/wholesale-fabric/Supima+Cotton-Knit-Jersey-Enzyme-Bio-25251",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 58,
+							"weight": 115,
+							"thickness": 0.36
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-025251_c16421d3-e737-4dca-ae76-a9160b4a473f_trim.BDAD32FF-9927-4DC6-A763-DD86B0F98A16-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-025251_c16421d3-e737-4dca-ae76-a9160b4a473f_trim.BDAD32FF-9927-4DC6-A763-DD86B0F98A16.mp4"
+						},
+						"contents": [
+							{
+								"id": 53,
+								"name": "Supima Cotton",
+								"abbreviation": "Supima",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.31,
+								"salePrice": 5.31,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.92,
+								"salePrice": 5.92,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 23
+					}
+				},
+				{
+					"id": 412922,
+					"code": "PD-00412922",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "91",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/11b7d7f4-0d75-4630-8fd3-f6355d2ead00.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/11b7d7f4-0d75-4630-8fd3-f6355d2ead00.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/11b7d7f4-0d75-4630-8fd3-f6355d2ead00.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 23,
+							"name": "Navy",
+							"sequence": 28,
+							"status": "visible",
+							"description": "명도 높은 블루 계열색",
+							"hexcode": "#002F6C",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 31363,
+						"code": "QL-031363",
+						"status": "published",
+						"supplierId": 1105,
+						"landingUrl": "/wholesale-fabric/Cotton-Modal-Knit-Jersey-Mercerized-31363",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 56,
+							"weight": 136,
+							"thickness": 0.34
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-031363_55123b35-99b4-4178-a88b-f61e160f7eda_trim.73E06778-6E13-4F1A-AF44-415FECDA3D51-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-031363_55123b35-99b4-4178-a88b-f61e160f7eda_trim.73E06778-6E13-4F1A-AF44-415FECDA3D51.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 60
+							},
+							{
+								"id": 17,
+								"name": "Modal",
+								"abbreviation": "MD",
+								"ratio": 40
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.77,
+								"salePrice": 4.77,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.38,
+								"salePrice": 5.38,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 22
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1983,
+			"sharingKey": "XZtkoAk_LVQNCu3VtDbguA",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "eyes_on",
+			"title": "Blossom into autumn",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/eyeson-fabric-trends/XZtkoAk_LVQNCu3VtDbguA",
+			"createdAt": "2022-06-07T06:06:42Z",
+			"updatedAt": "2022-06-07T06:08:59Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-_7ed0b7cf-d88e-4eab-8e14-0e3d622f1e6a_Blossom+into+autumn.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-_7ed0b7cf-d88e-4eab-8e14-0e3d622f1e6a_Blossom+into+autumn.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-_7ed0b7cf-d88e-4eab-8e14-0e3d622f1e6a_Blossom+into+autumn.jpg",
+					"caption": ""
+				}
+			],
+			"products": [
+				{
+					"id": 414378,
+					"code": "PD-00414378",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "1",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/0af3af2b-1456-40d5-aa47-cca90e43f462.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/0af3af2b-1456-40d5-aa47-cca90e43f462.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/0af3af2b-1456-40d5-aa47-cca90e43f462.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 46,
+							"name": "Royal Blue",
+							"sequence": 11,
+							"status": "visible",
+							"description": "블루톤 + 그레이,\r\n약간의 보라톤을 가지고 있어도 메인 컬러가 블루톤이면 royal blue",
+							"hexcode": "#385E9D",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 31456,
+						"code": "QL-031456",
+						"status": "published",
+						"supplierId": 901,
+						"landingUrl": "/wholesale-fabric/Cotton-Polyester-Knit-Jersey-Burnout-31456",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 40,
+						"bulkMoq": 400,
+						"quoteMoq": 800,
+						"metric": {
+							"width": 56,
+							"weight": 128,
+							"thickness": 0.42
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-031456_910a8bff-3fbd-490a-a19e-cdcba793988f_trim.ADFB13C9-B769-4001-984E-705C1702A1B3-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-031456_910a8bff-3fbd-490a-a19e-cdcba793988f_trim.ADFB13C9-B769-4001-984E-705C1702A1B3.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 70
+							},
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 30
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 6.46,
+								"salePrice": 6.46,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 7.08,
+								"salePrice": 7.08,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 6
+					}
+				},
+				{
+					"id": 414161,
+					"code": "PD-00414161",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "8",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/45345c43-68da-4b4c-97c7-453e007cb4dd.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/45345c43-68da-4b4c-97c7-453e007cb4dd.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/45345c43-68da-4b4c-97c7-453e007cb4dd.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 26,
+							"name": "Light Gray",
+							"sequence": 1,
+							"status": "visible",
+							"hexcode": "#CCCCCC",
+							"colorType": "grayscale"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 31502,
+						"code": "QL-031502",
+						"status": "published",
+						"supplierId": 1954,
+						"landingUrl": "/wholesale-fabric/Linen-Polyester-PU+%28Polyurethane%29-Woven-Twill-31502",
+						"stretchability": "stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 40,
+						"bulkMoq": 400,
+						"quoteMoq": 800,
+						"metric": {
+							"width": 52,
+							"weight": 192,
+							"thickness": 0.42
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-031502_35871986-ce81-478b-9a75-daa370b9858a_trim.ADAA93E4-F88A-49C4-8F57-8EE32547330A-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-031502_35871986-ce81-478b-9a75-daa370b9858a_trim.ADAA93E4-F88A-49C4-8F57-8EE32547330A.mp4"
+						},
+						"contents": [
+							{
+								"id": 14,
+								"name": "Linen",
+								"abbreviation": "LI",
+								"ratio": 12
+							},
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 85
+							},
+							{
+								"id": 26,
+								"name": "PU (Polyurethane)",
+								"abbreviation": "PU",
+								"ratio": 3
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 6.85,
+								"salePrice": 6.85,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 7.46,
+								"salePrice": 7.46,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 12
+					}
+				},
+				{
+					"id": 414173,
+					"code": "PD-00414173",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "8",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/0772bee9-3e5a-400b-9702-d1826244223e.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/0772bee9-3e5a-400b-9702-d1826244223e.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/0772bee9-3e5a-400b-9702-d1826244223e.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 24,
+							"name": "Lavender",
+							"sequence": 3,
+							"status": "visible",
+							"description": "가장 밝은 보라계열 색,\r\n연보라(Light purple)과 보라 빛이 도는 명도는 높지만 채도가 낮은 연보라(light purple)까지 라벤더로 분류",
+							"hexcode": "#D4C7D9",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 31501,
+						"code": "QL-031501",
+						"status": "published",
+						"supplierId": 1954,
+						"landingUrl": "/wholesale-fabric/Cotton-Woven-Plain-Slub-31501",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 40,
+						"bulkMoq": 400,
+						"quoteMoq": 800,
+						"metric": {
+							"width": 58,
+							"weight": 132,
+							"thickness": 0.5
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-031501_14c60d24-eade-4d4b-acee-4a89eec8dcf5_trim.454246C9-5934-4A6E-B79F-4126F6EF24AC-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-031501_14c60d24-eade-4d4b-acee-4a89eec8dcf5_trim.454246C9-5934-4A6E-B79F-4126F6EF24AC.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.69,
+								"salePrice": 5.69,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 6.31,
+								"salePrice": 6.31,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 12
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1982,
+			"sharingKey": "MLaQ1ogV73ifM6IqoBWsqg",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "eyes_on",
+			"title": "Blossom jacquard",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/wholesale-fabric/27143?product_id=345562",
+			"createdAt": "2022-06-07T06:05:54Z",
+			"updatedAt": "2022-06-07T06:08:55Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-_f3f74518-c071-470e-94e3-402cfffc5d99_QL-027143_Back_P.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-_f3f74518-c071-470e-94e3-402cfffc5d99_QL-027143_Back_P.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-_f3f74518-c071-470e-94e3-402cfffc5d99_QL-027143_Back_P.jpg",
+					"caption": ""
+				}
+			],
+			"products": [
+				{
+					"id": 345562,
+					"code": "PD-00345562",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "3",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/48611c95-6e0b-4f29-ba57-ab20cb56b65d.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/48611c95-6e0b-4f29-ba57-ab20cb56b65d.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/48611c95-6e0b-4f29-ba57-ab20cb56b65d.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 32,
+							"name": "Pink",
+							"sequence": 13,
+							"status": "visible",
+							"description": "가장 밝은 핑크색",
+							"hexcode": "#F277C6",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 27143,
+						"code": "QL-027143",
+						"status": "published",
+						"supplierId": 1630,
+						"landingUrl": "/wholesale-fabric/Polyester-Woven-Jacquard-Brocade-27143",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 30,
+						"bulkMoq": 300,
+						"quoteMoq": 600,
+						"metric": {
+							"width": 58,
+							"weight": 180,
+							"thickness": 0.51
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-027143_5a55dcb7-27a1-4a39-a82b-1ea6681a72d4_trim.98CBF284-0464-4DC5-975E-30C48559CC49-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-027143_5a55dcb7-27a1-4a39-a82b-1ea6681a72d4_trim.98CBF284-0464-4DC5-975E-30C48559CC49.mp4"
+						},
+						"contents": [
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 9.54,
+								"salePrice": 9.54,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 10.15,
+								"salePrice": 10.15,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 7
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1981,
+			"sharingKey": "6GCo9wZAm8fZLJkzDOco6g",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "eyes_on",
+			"title": "Stripe jacquard knit",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/wholesale-fabric/30636?product_id=407396",
+			"createdAt": "2022-06-07T06:04:54Z",
+			"updatedAt": "2022-06-07T06:08:49Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-_f8161348-62ed-4740-994a-49e4e8b3bd0f_QL-030636_Back_P.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-_f8161348-62ed-4740-994a-49e4e8b3bd0f_QL-030636_Back_P.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-_f8161348-62ed-4740-994a-49e4e8b3bd0f_QL-030636_Back_P.jpg",
+					"caption": ""
+				}
+			],
+			"products": [
+				{
+					"id": 407396,
+					"code": "PD-00407396",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "2",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/e36c8f99-46b0-4764-b28e-e0cadc15fcd9.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/e36c8f99-46b0-4764-b28e-e0cadc15fcd9.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/e36c8f99-46b0-4764-b28e-e0cadc15fcd9.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 36,
+							"name": "Cyan",
+							"sequence": 9,
+							"status": "visible",
+							"description": "채도 강한 하늘색",
+							"hexcode": "#00BCE1",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 30636,
+						"code": "QL-030636",
+						"status": "published",
+						"supplierId": 962,
+						"landingUrl": "/wholesale-fabric/Cotton-Polyester-PU+%28Polyurethane%29-Knit-Dobby-Jacquard-Yarn+Dye-30636",
+						"stretchability": "stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 40,
+						"bulkMoq": 400,
+						"quoteMoq": 800,
+						"metric": {
+							"width": 52,
+							"weight": 272,
+							"thickness": 1
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-030636_786a5882-2f95-466a-93b9-58c931d4b51f_trim.DB181C1E-ADA8-4353-9F22-4880D7833A3A-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-030636_786a5882-2f95-466a-93b9-58c931d4b51f_trim.DB181C1E-ADA8-4353-9F22-4880D7833A3A.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 52
+							},
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 43
+							},
+							{
+								"id": 26,
+								"name": "PU (Polyurethane)",
+								"abbreviation": "PU",
+								"ratio": 5
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 7.85,
+								"salePrice": 7.85,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 8.46,
+								"salePrice": 8.46,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 6
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1980,
+			"sharingKey": "4YkElmoN309WAYBAlZCqsw",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "eyes_on",
+			"title": "Gentle tactile",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/eyeson-fabric-trends/4YkElmoN309WAYBAlZCqsw",
+			"createdAt": "2022-06-07T05:58:35Z",
+			"updatedAt": "2022-06-07T06:08:43Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-_add07744-47e9-47f5-a1a5-c02ca01d4a23_Gentle+tactile.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-_add07744-47e9-47f5-a1a5-c02ca01d4a23_Gentle+tactile.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-_add07744-47e9-47f5-a1a5-c02ca01d4a23_Gentle+tactile.jpg",
+					"caption": ""
+				}
+			],
+			"products": [
+				{
+					"id": 387428,
+					"code": "PD-00387428",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "24",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/516693d4-cc1f-48e3-8f8c-e0e15932600e.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/516693d4-cc1f-48e3-8f8c-e0e15932600e.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/516693d4-cc1f-48e3-8f8c-e0e15932600e.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 32,
+							"name": "Pink",
+							"sequence": 13,
+							"status": "visible",
+							"description": "가장 밝은 핑크색",
+							"hexcode": "#F277C6",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 29104,
+						"code": "QL-029104",
+						"status": "published",
+						"supplierId": 1105,
+						"landingUrl": "/wholesale-fabric/Cotton-Polyester-Knit-French+Terry-29104",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 40,
+						"bulkMoq": 400,
+						"quoteMoq": 800,
+						"metric": {
+							"width": 60,
+							"weight": 340,
+							"thickness": 0.91
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-029104_62b3ee98-c860-4a80-867c-43303c00b17d_trim.EBE4FA5C-B498-44A9-A427-F7CEE36B79C3-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-029104_62b3ee98-c860-4a80-867c-43303c00b17d_trim.EBE4FA5C-B498-44A9-A427-F7CEE36B79C3.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 74
+							},
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 26
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 7.23,
+								"salePrice": 7.23,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 7.85,
+								"salePrice": 7.85,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 18
+					}
+				},
+				{
+					"id": 416382,
+					"code": "PD-00416382",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "2",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/802657db-2be2-4380-a4fd-760870697047.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/802657db-2be2-4380-a4fd-760870697047.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/802657db-2be2-4380-a4fd-760870697047.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 16,
+							"name": "Green",
+							"sequence": 17,
+							"status": "visible",
+							"hexcode": "#349C5E",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 31627,
+						"code": "QL-031627",
+						"status": "published",
+						"supplierId": 1523,
+						"landingUrl": "/wholesale-fabric/Cotton-Linen-Polyester-Woven-Jacquard-Brocade-Yarn+Dye-31627",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 20,
+						"bulkMoq": 200,
+						"quoteMoq": 400,
+						"metric": {
+							"width": 56,
+							"weight": 292,
+							"thickness": 1.28
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-031627_146d735b-f940-4570-a0ca-5b01e988e3e6_trim.A6E92CC4-8BB2-4098-94F4-8B3AC73B2381-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-031627_146d735b-f940-4570-a0ca-5b01e988e3e6_trim.A6E92CC4-8BB2-4098-94F4-8B3AC73B2381.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 63
+							},
+							{
+								"id": 14,
+								"name": "Linen",
+								"abbreviation": "LI",
+								"ratio": 11
+							},
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 26
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 12.62,
+								"salePrice": 12.62,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 13.23,
+								"salePrice": 13.23,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 3
+					}
+				},
+				{
+					"id": 414159,
+					"code": "PD-00414159",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "6",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/73450ced-3efc-4f56-a0fc-6e504264b4b8.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/73450ced-3efc-4f56-a0fc-6e504264b4b8.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/73450ced-3efc-4f56-a0fc-6e504264b4b8.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 16,
+							"name": "Green",
+							"sequence": 17,
+							"status": "visible",
+							"hexcode": "#349C5E",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 31502,
+						"code": "QL-031502",
+						"status": "published",
+						"supplierId": 1954,
+						"landingUrl": "/wholesale-fabric/Linen-Polyester-PU+%28Polyurethane%29-Woven-Twill-31502",
+						"stretchability": "stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 40,
+						"bulkMoq": 400,
+						"quoteMoq": 800,
+						"metric": {
+							"width": 52,
+							"weight": 192,
+							"thickness": 0.42
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-031502_35871986-ce81-478b-9a75-daa370b9858a_trim.ADAA93E4-F88A-49C4-8F57-8EE32547330A-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-031502_35871986-ce81-478b-9a75-daa370b9858a_trim.ADAA93E4-F88A-49C4-8F57-8EE32547330A.mp4"
+						},
+						"contents": [
+							{
+								"id": 14,
+								"name": "Linen",
+								"abbreviation": "LI",
+								"ratio": 12
+							},
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 85
+							},
+							{
+								"id": 26,
+								"name": "PU (Polyurethane)",
+								"abbreviation": "PU",
+								"ratio": 3
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 6.85,
+								"salePrice": 6.85,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 7.46,
+								"salePrice": 7.46,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 12
+					}
+				},
+				{
+					"id": 410427,
+					"code": "PD-00410427",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "2",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/8a7d8022-742c-4e90-936c-76ed9ceca86c.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/8a7d8022-742c-4e90-936c-76ed9ceca86c.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/8a7d8022-742c-4e90-936c-76ed9ceca86c.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 15,
+							"name": "Yellow",
+							"sequence": 16,
+							"status": "visible",
+							"hexcode": "#FEE715",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 1.54,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 30916,
+						"code": "QL-030916",
+						"status": "published",
+						"supplierId": 2139,
+						"landingUrl": "/wholesale-fabric/Polyester-Knit-Mesh-Tulle-Embroidery-30916",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 30,
+						"bulkMoq": 300,
+						"quoteMoq": 600,
+						"metric": {
+							"width": 50,
+							"weight": 183,
+							"thickness": 1.4
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-030916_474ebb20-0138-4ba2-9f0a-ab6996c2ef54_trim.AEE4ABE1-FD95-42E2-9D9F-CF42B049CBC7-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-030916_474ebb20-0138-4ba2-9f0a-ab6996c2ef54_trim.AEE4ABE1-FD95-42E2-9D9F-CF42B049CBC7.mp4"
+						},
+						"contents": [
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 11.08,
+								"salePrice": 11.08,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 11.69,
+								"salePrice": 11.69,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 5
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1979,
+			"sharingKey": "GdogSfQY6WP3MeusPvBQcQ",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "eyes_on",
+			"title": "Paisley poplin",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/wholesale-fabric/31436?product_id=415071",
+			"createdAt": "2022-06-07T05:57:42Z",
+			"updatedAt": "2022-06-07T06:08:38Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-_d9a45edb-42a5-485c-81ea-9a2362371026_QL-031436_Back_P.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-_d9a45edb-42a5-485c-81ea-9a2362371026_QL-031436_Back_P.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-_d9a45edb-42a5-485c-81ea-9a2362371026_QL-031436_Back_P.jpg",
+					"caption": ""
+				}
+			],
+			"products": [
+				{
+					"id": 415071,
+					"code": "PD-00415071",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "1",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/377e4087-052b-4cb9-88d1-ebe6347433f3.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/377e4087-052b-4cb9-88d1-ebe6347433f3.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/377e4087-052b-4cb9-88d1-ebe6347433f3.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 14,
+							"name": "Lime",
+							"sequence": 8,
+							"status": "visible",
+							"description": "일반적인 연두 컬러,\r\n블루빛이 도는 민트색상과 헷갈리지 않도록 함",
+							"hexcode": "#B9EAB3",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 31436,
+						"code": "QL-031436",
+						"status": "published",
+						"supplierId": 1805,
+						"landingUrl": "/wholesale-fabric/Cotton-Woven-Voile-Printed-31436",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 58,
+							"weight": 100,
+							"thickness": 0.33
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-031436_fcbbb4b0-0e43-42b6-bd8d-494a281eb21b_trim.1070ACF9-DF4F-4A26-938C-B4326CF48194-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-031436_fcbbb4b0-0e43-42b6-bd8d-494a281eb21b_trim.1070ACF9-DF4F-4A26-938C-B4326CF48194.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.92,
+								"salePrice": 4.92,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.54,
+								"salePrice": 5.54,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 13
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1978,
+			"sharingKey": "UTiCRMdtlkEJGKdSAIScTA",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "eyes_on",
+			"title": "Floral jacquard",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/wholesale-fabric/30583?product_id=406596",
+			"createdAt": "2022-06-07T05:56:00Z",
+			"updatedAt": "2022-06-07T06:08:32Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-_854894ac-e95e-40b4-aac9-498569334352_QL-030583_Fabric_P.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-_854894ac-e95e-40b4-aac9-498569334352_QL-030583_Fabric_P.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-_854894ac-e95e-40b4-aac9-498569334352_QL-030583_Fabric_P.jpg",
+					"caption": ""
+				}
+			],
+			"products": [
+				{
+					"id": 406596,
+					"code": "PD-00406596",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "1",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/3267d607-fad7-4605-aeac-a66bfb508bb5.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/3267d607-fad7-4605-aeac-a66bfb508bb5.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/3267d607-fad7-4605-aeac-a66bfb508bb5.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 32,
+							"name": "Pink",
+							"sequence": 13,
+							"status": "visible",
+							"description": "가장 밝은 핑크색",
+							"hexcode": "#F277C6",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 30583,
+						"code": "QL-030583",
+						"status": "published",
+						"supplierId": 2285,
+						"landingUrl": "/wholesale-fabric/Cotton-Polyester-PU+%28Polyurethane%29-Knit-Dobby-Jacquard-Yarn+Dye-30583",
+						"stretchability": "stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 40,
+						"bulkMoq": 400,
+						"quoteMoq": 800,
+						"metric": {
+							"width": 52,
+							"weight": 204,
+							"thickness": 0.82
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-030583_58cbf85f-6caa-47c8-84be-3d0c7e5aa98a_trim.82A50568-6C63-4B3D-91ED-D2E3FF910E4B-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-030583_58cbf85f-6caa-47c8-84be-3d0c7e5aa98a_trim.82A50568-6C63-4B3D-91ED-D2E3FF910E4B.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 78
+							},
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 17
+							},
+							{
+								"id": 26,
+								"name": "PU (Polyurethane)",
+								"abbreviation": "PU",
+								"ratio": 5
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 6.85,
+								"salePrice": 6.85,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 7.46,
+								"salePrice": 7.46,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 10
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1967,
+			"sharingKey": "X-WNSwkWSGCyX8e3pmhjVA",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "special_exhibition",
+			"title": "Recycled Fabric New Arrivals",
+			"subtitle": "",
+			"description": "Check out our new collection of fabrics made of pre and post-consumer waste GRS recycled yarn.",
+			"landingUrl": "/featured-collections/X-WNSwkWSGCyX8e3pmhjVA",
+			"createdAt": "2022-05-24T01:32:46Z",
+			"updatedAt": "2022-05-26T00:19:40Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1967_b3e34b60-1c69-493c-8c81-acab66554e32_Main+banner_New+Sustainable+%281%29.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1967_b3e34b60-1c69-493c-8c81-acab66554e32_Main+banner_New+Sustainable+%281%29.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1967_b3e34b60-1c69-493c-8c81-acab66554e32_Main+banner_New+Sustainable+%281%29.jpg",
+					"caption": ""
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1964,
+			"sharingKey": "pildQqgin09wkdNoNyaMgA",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "type_suggestion",
+			"title": "Classic Seersucker",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/wholesale-fabric?categoryIds=173&contentIds=11&contentIdsConjunction=need&from=/wholesale-fabric",
+			"createdAt": "2022-05-10T03:47:05Z",
+			"updatedAt": "2022-05-11T01:56:09Z",
+			"images": [],
+			"products": [
+				{
+					"id": 320796,
+					"code": "PD-00320796",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "2",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/68716f0b-ec45-4446-873d-cec1f9c91ec8.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/68716f0b-ec45-4446-873d-cec1f9c91ec8.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/68716f0b-ec45-4446-873d-cec1f9c91ec8.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 23,
+							"name": "Navy",
+							"sequence": 28,
+							"status": "visible",
+							"description": "명도 높은 블루 계열색",
+							"hexcode": "#002F6C",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 25783,
+						"code": "QL-025783",
+						"status": "published",
+						"supplierId": 1540,
+						"landingUrl": "/wholesale-fabric/Cotton-Polyester-Woven-Seersucker-Yarn+Dye-25783",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 44,
+							"weight": 104,
+							"thickness": 0.29
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-025783_77c11a66-5089-4eb9-a4d8-4f185592c053_trim.6E50E5A9-08C8-44C5-8A7D-EBDCE291128A-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-025783_77c11a66-5089-4eb9-a4d8-4f185592c053_trim.6E50E5A9-08C8-44C5-8A7D-EBDCE291128A.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 35
+							},
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 65
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.54,
+								"salePrice": 4.54,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.15,
+								"salePrice": 5.15,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 3
+					}
+				},
+				{
+					"id": 302462,
+					"code": "PD-00302462",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "1",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/802073ae-89fd-4eef-90fc-9a489bb269bf.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/802073ae-89fd-4eef-90fc-9a489bb269bf.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/802073ae-89fd-4eef-90fc-9a489bb269bf.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 25,
+							"name": "Purple",
+							"sequence": 21,
+							"status": "visible",
+							"hexcode": "#753BBD",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 24838,
+						"code": "QL-024838",
+						"status": "published",
+						"supplierId": 1906,
+						"landingUrl": "/wholesale-fabric/Cotton-Polyester-Woven-Seersucker-Yarn+Dye-24838",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 44,
+							"weight": 100,
+							"thickness": 0.27
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-024838_baeea9ba-2567-4c48-8860-026274c3646f_trim.49E5B455-CF51-45DF-A477-8C3C6E414241-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-024838_baeea9ba-2567-4c48-8860-026274c3646f_trim.49E5B455-CF51-45DF-A477-8C3C6E414241.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 35
+							},
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 65
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.54,
+								"salePrice": 4.54,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 5.15,
+								"salePrice": 5.15,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 2
+					}
+				},
+				{
+					"id": 7919,
+					"code": "PD-00007919",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "2",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/QL-007313-2_3c085f65-8bcb-44fd-bf4b-833f9452c677_2.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/QL-007313-2_3c085f65-8bcb-44fd-bf4b-833f9452c677_2.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/QL-007313-2_3c085f65-8bcb-44fd-bf4b-833f9452c677_2.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 14,
+							"name": "Lime",
+							"sequence": 8,
+							"status": "visible",
+							"description": "일반적인 연두 컬러,\r\n블루빛이 도는 민트색상과 헷갈리지 않도록 함",
+							"hexcode": "#B9EAB3",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 7313,
+						"code": "QL-007313",
+						"status": "published",
+						"supplierId": 1171,
+						"landingUrl": "/wholesale-fabric/Polyester-Cotton-Seersucker-7313",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 60,
+						"bulkMoq": 600,
+						"quoteMoq": 1200,
+						"metric": {
+							"width": 56,
+							"weight": 96,
+							"thickness": 0.33
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-007313_e6b354d0-ab73-49d9-a0a7-ad75aa69fc77_F28B784C-2EA5-480C-ADB9-EBF73B36BA10-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-007313_e6b354d0-ab73-49d9-a0a7-ad75aa69fc77_F28B784C-2EA5-480C-ADB9-EBF73B36BA10.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 35
+							},
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 65
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 3.77,
+								"salePrice": 3.77,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.38,
+								"salePrice": 4.38,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 17
+					}
+				},
+				{
+					"id": 279257,
+					"code": "PD-00279257",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "1",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/PD-00279257-ee3901c2-18e4-4051-90ca-0f3139888f47.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/PD-00279257-ee3901c2-18e4-4051-90ca-0f3139888f47.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/PD-00279257-ee3901c2-18e4-4051-90ca-0f3139888f47.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 15,
+							"name": "Yellow",
+							"sequence": 16,
+							"status": "visible",
+							"hexcode": "#FEE715",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": 0,
+					"quality": {
+						"id": 23556,
+						"code": "QL-023556",
+						"status": "published",
+						"supplierId": 2142,
+						"landingUrl": "/wholesale-fabric/Cotton-Woven-Seersucker-Printed-23556",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 48,
+							"weight": 88,
+							"thickness": 0.23
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-023556_6f639b6a-5140-416b-a97b-71c6f1232ee1_trim.28A87D13-46B4-489D-884D-456E9E3EC569-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-023556_6f639b6a-5140-416b-a97b-71c6f1232ee1_trim.28A87D13-46B4-489D-884D-456E9E3EC569.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.31,
+								"salePrice": 4.31,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.92,
+								"salePrice": 4.92,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 4
+					}
+				},
+				{
+					"id": 399826,
+					"code": "PD-00399826",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "3",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/032f172a-263e-46a6-ab50-30b3f278ce6f.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/032f172a-263e-46a6-ab50-30b3f278ce6f.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/032f172a-263e-46a6-ab50-30b3f278ce6f.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 32,
+							"name": "Pink",
+							"sequence": 13,
+							"status": "visible",
+							"description": "가장 밝은 핑크색",
+							"hexcode": "#F277C6",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 30082,
+						"code": "QL-030082",
+						"status": "published",
+						"supplierId": 1408,
+						"landingUrl": "/wholesale-fabric/Cotton-Polyester-Woven-Seersucker-Yarn+Dye-30082",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 70,
+						"bulkMoq": 700,
+						"quoteMoq": 1400,
+						"metric": {
+							"width": 58,
+							"weight": 104,
+							"thickness": 0.28
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-030082_39cee287-e3fc-4814-ae94-5b395d1d0600_trim.B8C56826-D796-4C46-B54E-C3A030287518-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-030082_39cee287-e3fc-4814-ae94-5b395d1d0600_trim.B8C56826-D796-4C46-B54E-C3A030287518.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 50
+							},
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 50
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 2.62,
+								"salePrice": 2.62,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 3.23,
+								"salePrice": 3.23,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 10
+					}
+				},
+				{
+					"id": 399831,
+					"code": "PD-00399831",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "8",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/7c70e7c1-eef4-43fd-a2c4-1a0c7a183d00.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/7c70e7c1-eef4-43fd-a2c4-1a0c7a183d00.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/7c70e7c1-eef4-43fd-a2c4-1a0c7a183d00.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 22,
+							"name": "Blue",
+							"sequence": 19,
+							"status": "visible",
+							"hexcode": "#0057B7",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 30082,
+						"code": "QL-030082",
+						"status": "published",
+						"supplierId": 1408,
+						"landingUrl": "/wholesale-fabric/Cotton-Polyester-Woven-Seersucker-Yarn+Dye-30082",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 70,
+						"bulkMoq": 700,
+						"quoteMoq": 1400,
+						"metric": {
+							"width": 58,
+							"weight": 104,
+							"thickness": 0.28
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-030082_39cee287-e3fc-4814-ae94-5b395d1d0600_trim.B8C56826-D796-4C46-B54E-C3A030287518-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-030082_39cee287-e3fc-4814-ae94-5b395d1d0600_trim.B8C56826-D796-4C46-B54E-C3A030287518.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 50
+							},
+							{
+								"id": 23,
+								"name": "Polyester",
+								"abbreviation": "PL",
+								"ratio": 50
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 2.62,
+								"salePrice": 2.62,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 3.23,
+								"salePrice": 3.23,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 10
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1962,
+			"sharingKey": "3qSv_BqLfu4108Z6gqO5Tw",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "eyes_on",
+			"title": "Rustic textured jersey",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/wholesale-fabric/27871?product_id=351842",
+			"createdAt": "2022-05-02T08:14:07Z",
+			"updatedAt": "2022-05-02T08:16:22Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1962_6f0bb312-af2b-41c9-b2c5-63f0666fda7b_QL-027871_Fabric_P_2.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1962_6f0bb312-af2b-41c9-b2c5-63f0666fda7b_QL-027871_Fabric_P_2.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1962_6f0bb312-af2b-41c9-b2c5-63f0666fda7b_QL-027871_Fabric_P_2.jpg",
+					"caption": ""
+				}
+			],
+			"products": [
+				{
+					"id": 351842,
+					"code": "PD-00351842",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "25",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/b1e2678f-c1c4-4262-a5b2-9bdf96803c15.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/b1e2678f-c1c4-4262-a5b2-9bdf96803c15.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/b1e2678f-c1c4-4262-a5b2-9bdf96803c15.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 1,
+							"name": "Dusty Pink",
+							"sequence": 5,
+							"status": "visible",
+							"description": "핑크에 grey tone이 섞임 / 명도 밝지만 그레이톤 핑크",
+							"hexcode": "#E7C9CA",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 27871,
+						"code": "QL-027871",
+						"status": "published",
+						"supplierId": 1713,
+						"landingUrl": "/wholesale-fabric/Cotton-Knit-Jersey-Slub-27871",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 50,
+						"bulkMoq": 500,
+						"quoteMoq": 1000,
+						"metric": {
+							"width": 64,
+							"weight": 132,
+							"thickness": 0.45
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-027871_d45f7ed0-2ec2-46c7-b7ea-a80177cb375b_trim.87DE6252-1333-4638-8347-78A1F03C026D-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-027871_d45f7ed0-2ec2-46c7-b7ea-a80177cb375b_trim.87DE6252-1333-4638-8347-78A1F03C026D.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.15,
+								"salePrice": 4.15,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4.77,
+								"salePrice": 4.77,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 30
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		},
+		{
+			"id": 1961,
+			"sharingKey": "BtMbgrYRlQE44k7l_klE4w",
+			"sequence": -1,
+			"status": "exhibited",
+			"itemType": "eyes_on",
+			"title": "Shades of green",
+			"subtitle": "",
+			"description": "",
+			"landingUrl": "/eyeson-fabric-trends/BtMbgrYRlQE44k7l_klE4w",
+			"createdAt": "2022-05-02T08:09:45Z",
+			"updatedAt": "2022-05-02T08:16:17Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/MarketingItem-1961_e0068321-6f62-4a9c-b6a8-70f9e4d225d6_Shades+of+green_1.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/MarketingItem-1961_e0068321-6f62-4a9c-b6a8-70f9e4d225d6_Shades+of+green_1.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/MarketingItem-1961_e0068321-6f62-4a9c-b6a8-70f9e4d225d6_Shades+of+green_1.jpg",
+					"caption": ""
+				}
+			],
+			"products": [
+				{
+					"id": 410617,
+					"code": "PD-00410617",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "2",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/9dbe22e9-f7b4-48f0-96fb-e488bdfbcf15.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/9dbe22e9-f7b4-48f0-96fb-e488bdfbcf15.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/9dbe22e9-f7b4-48f0-96fb-e488bdfbcf15.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 18,
+							"name": "Olive Green",
+							"sequence": 26,
+							"status": "visible",
+							"description": "낮은 채도의 그린톤에서 노란색이 섞인 컬러로 분류,\r\n비슷한 명도에서 노란색이 많은 것은 머스타드(mustard yellow)으로 분류",
+							"hexcode": "#4F632D",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 30988,
+						"code": "QL-030988",
+						"status": "published",
+						"supplierId": 1970,
+						"landingUrl": "/wholesale-fabric/Cotton-Woven-Plain-Printed-30988",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 60,
+						"bulkMoq": 600,
+						"quoteMoq": 1200,
+						"metric": {
+							"width": 58,
+							"weight": 96,
+							"thickness": 0.21
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-030988_9501b400-0685-41ad-b7d2-f2670c40dcba_trim.E995386C-2C50-4F5A-83EE-AB0C65EF49E5-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-030988_9501b400-0685-41ad-b7d2-f2670c40dcba_trim.E995386C-2C50-4F5A-83EE-AB0C65EF49E5.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 3.38,
+								"salePrice": 3.38,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 4,
+								"salePrice": 4,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 10
+					}
+				},
+				{
+					"id": 404330,
+					"code": "PD-00404330",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "1",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/913eaca3-d1a2-4c53-8fd1-30f7cd5a4424.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/913eaca3-d1a2-4c53-8fd1-30f7cd5a4424.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/913eaca3-d1a2-4c53-8fd1-30f7cd5a4424.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 16,
+							"name": "Green",
+							"sequence": 17,
+							"status": "visible",
+							"hexcode": "#349C5E",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 30358,
+						"code": "QL-030358",
+						"status": "published",
+						"supplierId": 2169,
+						"landingUrl": "/wholesale-fabric/Linen-Viscose+Rayon-Knit-Jersey-Yarn+Dye-30358",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 40,
+						"bulkMoq": 400,
+						"quoteMoq": 800,
+						"metric": {
+							"width": 60,
+							"weight": 176,
+							"thickness": 0.57
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-030358_2eabd9e1-3ee5-406f-a798-9a693cc32113_trim.FD1606B7-A701-442D-A4CA-FC2C7B38FFF2-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-030358_2eabd9e1-3ee5-406f-a798-9a693cc32113_trim.FD1606B7-A701-442D-A4CA-FC2C7B38FFF2.mp4"
+						},
+						"contents": [
+							{
+								"id": 14,
+								"name": "Linen",
+								"abbreviation": "LI",
+								"ratio": 70
+							},
+							{
+								"id": 28,
+								"name": "Viscose Rayon",
+								"abbreviation": "VI",
+								"ratio": 30
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 7.23,
+								"salePrice": 7.23,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 7.85,
+								"salePrice": 7.85,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 9
+					}
+				},
+				{
+					"id": 235337,
+					"code": "PD-00235337",
+					"status": "published",
+					"newColor": false,
+					"labelColorNumber": "11",
+					"image": {
+						"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/PD-00235337-556e12ad-3196-4b1b-bbac-e9a10904484b.jpg",
+						"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/PD-00235337-556e12ad-3196-4b1b-bbac-e9a10904484b.jpg",
+						"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/PD-00235337-556e12ad-3196-4b1b-bbac-e9a10904484b.jpg",
+						"caption": null
+					},
+					"colors": [
+						{
+							"id": 47,
+							"name": "Mustard Yellow",
+							"sequence": 25,
+							"status": "visible",
+							"hexcode": "#D4AE40",
+							"colorType": "normal"
+						}
+					],
+					"purchasePriceSurplus": 0,
+					"printable": false,
+					"stock": null,
+					"quality": {
+						"id": 21473,
+						"code": "QL-021473",
+						"status": "published",
+						"supplierId": 1426,
+						"landingUrl": "/wholesale-fabric/Cotton-Woven-Chambray-Oxford-Enzyme-Bio-21473",
+						"stretchability": "non_stretchable",
+						"printable": false,
+						"dtpOnly": false,
+						"wholesaleMoq": 40,
+						"bulkMoq": 400,
+						"quoteMoq": 800,
+						"metric": {
+							"width": 58,
+							"weight": 344,
+							"thickness": 0.86
+						},
+						"video": {
+							"videoType": "swatch",
+							"thumbnail": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/thumbs/small/QL-021473_acfbddc0-dd71-48d0-9b17-e042b1a40a27_trim.2FF6FBDC-22B7-4D0E-9A27-BD6CCD1558F8-00001.jpg",
+							"path": "https://d1gspnfpdfjhrb.cloudfront.net/videos/resized/QL-021473_acfbddc0-dd71-48d0-9b17-e042b1a40a27_trim.2FF6FBDC-22B7-4D0E-9A27-BD6CCD1558F8.mp4"
+						},
+						"contents": [
+							{
+								"id": 11,
+								"name": "Cotton",
+								"abbreviation": "CO",
+								"ratio": 100
+							}
+						],
+						"price": {
+							"bulk": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 6.46,
+								"salePrice": 6.46,
+								"printingPrice": 0
+							},
+							"wholesale": {
+								"discounted": false,
+								"salePriceBeforeDiscount": 7.08,
+								"salePrice": 7.08,
+								"printingPrice": 0
+							}
+						},
+						"productsNum": 25
+					}
+				}
+			],
+			"qualities": [],
+			"color": []
+		}
+	],
+	"total": 327,
+	"perPage": 18,
+	"page": 1
+}

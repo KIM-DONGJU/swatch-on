@@ -65,7 +65,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 16px;
-    box-sizing: border-box;
     gap: 48px;
 
     .wrap-swatch-on-logo {

@@ -1,0 +1,67 @@
+{
+	"items": [
+		{
+			"id": 5,
+			"sharingKey": "fall-winter-2021-vol-2",
+			"sequence": 19,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "Scent of Fall",
+			"subtitle": "F/W 2021",
+			"description": "<p><span>&#8226;</span>&nbsp;Be My Vegan</p><p><span>&#8226;</span>&nbsp;Checkmate</p><p><span>&#8226;</span>&nbsp;Modern Safari</p><p><span>&#8226;</span>&nbsp;Dark Garden</p>",
+			"landingUrl": "/fabric-trends/fall-winter-2021-vol-2",
+			"volume": 2,
+			"createdAt": "2021-06-04T10:00:15Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/trend_report_2021_fw_1_main.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/trend_report_2021_fw_1_main.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/trend_report_2021_fw_1_main.jpg",
+					"caption": null
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#385389",
+					"pantoneNumber": ""
+				}
+			]
+		},
+		{
+			"id": 1,
+			"sharingKey": "spring-summer-2021-vol-1",
+			"sequence": 20,
+			"status": "exhibited",
+			"itemType": "trending_on",
+			"title": "Prints Please",
+			"subtitle": "S/S 2021",
+			"description": "<p><span>&#8226;</span>&nbsp;Abstract Blossoms</p><p><span>&#8226;</span>&nbsp;A Retro Kind of Mood</p><p><span>&#8226;</span>&nbsp;Washed-Out Watercolors</p>",
+			"landingUrl": "/fabric-trends/spring-summer-2021-vol-1",
+			"volume": 1,
+			"createdAt": "2021-06-04T10:00:14Z",
+			"updatedAt": "2022-08-04T07:24:31Z",
+			"images": [
+				{
+					"large": "https://d1gspnfpdfjhrb.cloudfront.net/images/large/trend_report_2021_ss_1_main.jpg",
+					"medium": "https://d1gspnfpdfjhrb.cloudfront.net/images/medium/trend_report_2021_ss_1_main.jpg",
+					"small": "https://d1gspnfpdfjhrb.cloudfront.net/images/small/trend_report_2021_ss_1_main.jpg",
+					"caption": null
+				}
+			],
+			"products": [],
+			"qualities": [],
+			"color": [
+				{
+					"hex": "#E4D4B5",
+					"pantoneNumber": ""
+				}
+			]
+		}
+	],
+	"total": 20,
+	"perPage": 18,
+	"page": 2
+}
