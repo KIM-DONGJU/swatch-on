@@ -118,7 +118,7 @@ export interface responseMarketingItemsType {
 }
 
 export interface marketingItemsCategoryType {
-  'all': String,
+  'all': string,
   'discover': string,
   'trending_on': string,
   'mood_board': string,
