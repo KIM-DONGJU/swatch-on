@@ -2,8 +2,10 @@
   <div class="marketing-items-category-container">
     <div
       class="category"
+      :class="getSelectCategoryStyle(key)"
       v-for="(category, key) in categories"
       :key="key"
+      @click="selectCategory(key)"
     >
       {{category}}
     </div>
@@ -11,13 +13,30 @@
 </template>
 
 <script lang="ts" setup>
-import { marketingItemsCategoryType } from '~~/interface/marketingItems.js';
+import {
+  marketingItemsCategoryType,
+  marketingItemsSelectCategoryStyleType
+} from '@/interface/marketingItems';
 
-const categories:marketingItemsCategoryType = {
+const categories: marketingItemsCategoryType = {
   'all': 'All',
   'discover': 'Discover',
   'trending_on': 'TrendingOn',
   'mood_board': 'Fabric Moodboards',
+}
+
+const props = defineProps<{
+  currentCategory: string,
+  selectCategory: (key: string) => void,
+}>();
+
+const getSelectCategoryStyle = (key: string): marketingItemsSelectCategoryStyleType => {
+  const isSelectCategory = props.currentCategory === key;
+  const selectCategoryStyle = {
+    'select-category': isSelectCategory,
+  };
+
+  return selectCategoryStyle;
 }
 
 </script>
@@ -46,6 +65,11 @@ const categories:marketingItemsCategoryType = {
       border: 2px solid var(--calm-purple);
       box-shadow: 0 4px 8px var(--calm-purple-bg-lv0);
     }
+  }
+
+  .select-category {
+    background: var(--calm-purple);
+    color: var(--white);
   }
 }
 

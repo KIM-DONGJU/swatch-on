@@ -1,12 +1,39 @@
 <template>
   <div class="marketing-item-list-container">
-    <MarketingItemsCategory />
+    <MarketingItemsCategory
+      :currentCategory="getCurrentCategory"
+      :selectCategory="selectCategory"
+    />
   </div>
 </template>
 
 <script lang="ts" setup>
 import { getMarketingItemsJson } from '@/apis/marketingItems.js';
 import { MarketingItemsCategory } from '@/components';
+import { ComputedRef } from 'vue';
+
+const route = useRoute();
+const router = useRouter();
+
+const getCurrentCategory: ComputedRef<string> = computed(() => {
+  const currentCategory = route.query.item_type;
+  const isNoSelectCategory = currentCategory === undefined;
+
+  if (isNoSelectCategory) {
+    return 'all';
+  };
+
+  return currentCategory as string;
+});
+
+const selectCategory = (key: string): void => {
+  router.replace({
+    path: route.path,
+    query: {
+      'item_type': key
+    }
+  })
+}
 
 onMounted(async () => {
   const searchRequirement = {

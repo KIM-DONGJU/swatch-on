@@ -123,3 +123,7 @@ export interface marketingItemsCategoryType {
   'trending_on': string,
   'mood_board': string,
 }
+
+export interface marketingItemsSelectCategoryStyleType {
+  'select-category': boolean,
+}
