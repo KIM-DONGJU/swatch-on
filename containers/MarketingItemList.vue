@@ -5,15 +5,25 @@
       :selectCategory="selectCategory"
     />
   </div>
-  {{getBundleMarketingItems}}
+  <div class="wrap-marketing-item-list">
+    <component
+      v-for="items in getBundleMarketingItems"
+      :key="getBundleMarketingItemsKey(items)"
+      :is="items[0].itemType === 'mood_board' ? MoodBoardIThreeItems : null"
+      :bundleMoodBoardItems="items"
+    />
+  </div>
 </template>
 
 <script lang="ts" setup>
 import { getMarketingItemsJson } from '@/apis/marketingItems';
-import { MarketingItemsCategory } from '@/components';
+import {
+  MarketingItemsCategory,
+  MoodBoardIThreeItems
+} from '@/components';
 import { ComputedRef } from 'vue';
 import {
-  bundleMarketingItemsType,
+  marketingItemType,
   requestMarketingItemsJsonType,
   responseMarketingItemsType
 } from '@/interface/marketingItems';
@@ -39,7 +49,7 @@ const marketingItems: responseMarketingItemsType = reactive({
   total: 1,
 });
 
-const getBundleMarketingItems: ComputedRef<bundleMarketingItemsType> = computed(() => {
+const getBundleMarketingItems: ComputedRef<(marketingItemType[])[]> = computed(() => {
   const bundleMarketingItems = [];
   let moodBoardBundler = [];
   let eyesOnBundler = [];
@@ -71,7 +81,7 @@ const getBundleMarketingItems: ComputedRef<bundleMarketingItemsType> = computed(
       return;
     };
 
-    bundleMarketingItems.push(item);
+    bundleMarketingItems.push([item]);
   });
 
   return bundleMarketingItems;
@@ -122,6 +132,13 @@ const selectCategory = (key: string): void => {
 
   setMarketingItems(key);
 };
+
+const getBundleMarketingItemsKey = (items: marketingItemType[]) => {
+  const firstItemId = items[0].id;
+  const bundleMarketingItemsKey = `bundle-marketing-items-key-${firstItemId}}`;
+
+  return bundleMarketingItemsKey;
+}
 
 </script>
 

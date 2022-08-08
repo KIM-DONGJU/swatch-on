@@ -123,8 +123,6 @@ export interface responseMarketingItemsType {
   total: number,
 }
 
-export type bundleMarketingItemsType = (marketingItemType | marketingItemType[])[]
-
 export interface marketingItemsCategoryType {
   'all': string,
   'discover': string,
