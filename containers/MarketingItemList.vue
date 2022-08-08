@@ -5,13 +5,18 @@
       :selectCategory="selectCategory"
     />
   </div>
+  {{getBundleMarketingItems}}
 </template>
 
 <script lang="ts" setup>
 import { getMarketingItemsJson } from '@/apis/marketingItems';
 import { MarketingItemsCategory } from '@/components';
 import { ComputedRef } from 'vue';
-import { marketingItemsSplitCategoryType, marketingItemType, requestMarketingItemsJsonType, responseMarketingItemsType } from '@/interface/marketingItems';
+import {
+  bundleMarketingItemsType,
+  requestMarketingItemsJsonType,
+  responseMarketingItemsType
+} from '@/interface/marketingItems';
 
 const route = useRoute();
 const router = useRouter();
@@ -34,33 +39,43 @@ const marketingItems: responseMarketingItemsType = reactive({
   total: 1,
 });
 
-const getMarketingItemsSplitCategory: ComputedRef<marketingItemsSplitCategoryType> = computed(() => {
-  const marketingItemsSplitCategory: marketingItemsSplitCategoryType = marketingItems.items.reduce((result, item) => {
-    result[item.itemType].push(item);
+const getBundleMarketingItems: ComputedRef<bundleMarketingItemsType> = computed(() => {
+  const bundleMarketingItems = [];
+  let moodBoardBundler = [];
+  let eyesOnBundler = [];
 
-    return result;
-  }, {
-  'trending_on': [],
-  'mood_board': [],
-  'eyes_on': [],
-  'type_suggestion': [],
+  marketingItems.items.forEach((item) => {
+    const isMoodBoard = item.itemType === 'mood_board';
+    if (isMoodBoard) {
+      moodBoardBundler.push(item);
+      const isThreeMoodBoard = moodBoardBundler.length === 3;
+
+      if (isThreeMoodBoard) {
+        bundleMarketingItems.push(moodBoardBundler);
+        moodBoardBundler = [];
+      };
+
+      return;
+    };
+
+    const isEyesOn = item.itemType === 'eyes_on';
+    if (isEyesOn) {
+      eyesOnBundler.push(item);
+      const isSixEyesOn = eyesOnBundler.length === 6;
+
+      if (isSixEyesOn) {
+        bundleMarketingItems.push(eyesOnBundler);
+        eyesOnBundler = [];
+      }
+
+      return;
+    };
+
+    bundleMarketingItems.push(item);
   });
 
-  return marketingItemsSplitCategory
+  return bundleMarketingItems;
 });
-
-const getMoodBoardTypeItems: ComputedRef<Array<marketingItemType[]>> = computed(() => {
-  const moodBoardTypeItems = getMarketingItemsSplitCategory.value.mood_board;
-  const moodBoardTypeItemsQuantity = moodBoardTypeItems.length;
-  const moodBoardTypeItemsBundleThree: Array<marketingItemType[]> = [];
-
-  for (let i = 0; i < moodBoardTypeItemsQuantity; i += 3) {
-    moodBoardTypeItemsBundleThree.push(moodBoardTypeItems.slice(i, i+3));
-  };
-
-  return moodBoardTypeItemsBundleThree;
-})
-
 
 const setMarketingItems = async (itemType: string): Promise<void> => {
   const searchRequirement: requestMarketingItemsJsonType = {

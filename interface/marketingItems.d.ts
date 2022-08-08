@@ -123,12 +123,7 @@ export interface responseMarketingItemsType {
   total: number,
 }
 
-export interface marketingItemsSplitCategoryType {
-  'trending_on': marketingItemType[],
-  'mood_board': marketingItemType[],
-  'eyes_on': marketingItemType[],
-  'type_suggestion': marketingItemType[],
-}
+export type bundleMarketingItemsType = (marketingItemType | marketingItemType[])[]
 
 export interface marketingItemsCategoryType {
   'all': string,
