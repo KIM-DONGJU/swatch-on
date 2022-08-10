@@ -9,7 +9,7 @@
 </template>
 
 <script lang="ts" setup>
-import { marketingItemsImageType, marketingItemType } from '@/interface/marketingItems';
+import { marketingItemType } from '@/interface/marketingItems';
 import { MoodBoardItem } from '@/components';
 
 

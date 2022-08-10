@@ -8,7 +8,7 @@
       <component
         v-for="items in getBundleMarketingItems"
         :key="getBundleMarketingItemsKey(items)"
-        :is="items[0].itemType === 'mood_board' ? MoodBoardIThreeItems : null"
+        :is="viewMarketingItemsComponent(items)"
         :bundleMoodBoardItems="items"
       />
     </div>
@@ -133,13 +133,22 @@ const selectCategory = (key: string): void => {
   setMarketingItems(key);
 };
 
-const getBundleMarketingItemsKey = (items: marketingItemType[]) => {
+const getBundleMarketingItemsKey = (items: marketingItemType[]): string => {
   const firstItemId = items[0].id;
   const bundleMarketingItemsKey = `bundle-marketing-items-key-${firstItemId}}`;
 
   return bundleMarketingItemsKey;
 }
 
+const viewMarketingItemsComponent = (items: marketingItemType[]): any  => {
+  const isMoodBoardItem = items[0].itemType === 'mood_board';
+
+  if (isMoodBoardItem) {
+    return MoodBoardIThreeItems
+  };
+
+  return null;
+}
 </script>
 
 <style lang="scss" scoped>
