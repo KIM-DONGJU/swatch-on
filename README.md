@@ -1,4 +1,4 @@
-## Nuxt3 기반으로 SwatchOn 사이트 클론 코딩
+## Nuxt3 기반으로 SwatchOn 클론 코딩
 
 
 ## 📝 사용언어, 기술스택
