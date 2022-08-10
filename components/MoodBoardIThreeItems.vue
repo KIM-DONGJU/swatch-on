@@ -3,7 +3,7 @@
     <MoodBoardItem
       v-for="moodBoardItem in bundleMoodBoardItems"
       :key="getMoodBoardItemKey(moodBoardItem)"
-      :moodBoardItemModelImages="getMoodBoardItemModelImagesMaxFour(moodBoardItem)"
+      :moodBoardItem="moodBoardItem"
     />
   </div>
 </template>
@@ -22,19 +22,6 @@ const getMoodBoardItemKey = (moodBoardItem: marketingItemType): string => {
   const moodBoardItemKey = `marketing-items-key-${itemId}`;
 
   return moodBoardItemKey
-}
-
-const getMoodBoardItemModelImagesMaxFour = (moodBoardItem: marketingItemType): marketingItemsImageType[]  => {
-  const moodBoardItemModelImages = moodBoardItem.images || [];
-  const isModelImageOverFour = moodBoardItemModelImages.length > 4;
-
-  if (isModelImageOverFour) {
-    const moodBoardItemModelImagesMaxFour = moodBoardItemModelImages.slice(0, 4);
-
-    return moodBoardItemModelImagesMaxFour;
-  };
-
-  return moodBoardItemModelImages;
 }
 
 </script>

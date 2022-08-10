@@ -9,32 +9,32 @@
         >
       </div>
       <div class="navigation-list">
-        <router-link
+        <nuxt-link
           class="navigation-link"
           to=""
         >
           EXPLORE
-        </router-link>
-        <router-link
+        </nuxt-link>
+        <nuxt-link
           class="navigation-link"
           to=""
         >
           SEARCH
-        </router-link>
+        </nuxt-link>
       </div>
       <div class="wrap-login">
-        <router-link
+        <nuxt-link
           class="login-link"
           to=""
         >
           LOGIN
-        </router-link>
-        <router-link
+        </nuxt-link>
+        <nuxt-link
           class="sign-up-link"
           to=""
         >
           JOIN FOR FREE
-        </router-link>
+        </nuxt-link>
       </div>
     </div>
   </div>
