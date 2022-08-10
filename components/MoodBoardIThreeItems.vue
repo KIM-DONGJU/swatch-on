@@ -32,14 +32,21 @@ const getMoodBoardItemKey = (moodBoardItem: marketingItemType): string => {
   max-width: 1920px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 16px;
+  grid-row-gap: 20px;
   align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .mood-board-three-items-container {
+    grid-row-gap: 64px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .mood-board-three-items-container {
-    padding: 0 48px;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 </style>

@@ -4,14 +4,14 @@
       :currentCategory="getCurrentCategory"
       :selectCategory="selectCategory"
     />
-  </div>
-  <div class="wrap-marketing-item-list">
-    <component
-      v-for="items in getBundleMarketingItems"
-      :key="getBundleMarketingItemsKey(items)"
-      :is="items[0].itemType === 'mood_board' ? MoodBoardIThreeItems : null"
-      :bundleMoodBoardItems="items"
-    />
+    <div class="wrap-marketing-item-list">
+      <component
+        v-for="items in getBundleMarketingItems"
+        :key="getBundleMarketingItemsKey(items)"
+        :is="items[0].itemType === 'mood_board' ? MoodBoardIThreeItems : null"
+        :bundleMoodBoardItems="items"
+      />
+    </div>
   </div>
 </template>
 
@@ -146,11 +146,44 @@ const getBundleMarketingItemsKey = (items: marketingItemType[]) => {
 .marketing-item-list-container {
   max-width: 1920px;
   margin: 0 auto;
+  padding: 0 8px;
+
+  .wrap-marketing-item-list {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
 }
+
+@media screen and (min-width: 768px) {
+  .marketing-item-list-container {
+    .wrap-marketing-item-list {
+      gap: 48px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .marketing-item-list-container {
+    .wrap-marketing-item-list {
+      margin-top: 64px;
+    }
+  }
+}
+
 
 @media screen and (min-width: 1200px) {
   .marketing-item-list-container {
     padding: 0 48px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .marketing-item-list-container {
+    .wrap-marketing-item-list {
+      gap: 72px;
+    }
   }
 }
 </style>

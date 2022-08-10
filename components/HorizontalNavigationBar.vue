@@ -56,6 +56,7 @@
   box-shadow: 0 2px 3px rgb(0 0 0 / 16%);
   transition: all .2s ease;
   z-index: 6;
+  flex-shrink: 0;
 
   .wrap-navigation-bar {
     width: 100%;

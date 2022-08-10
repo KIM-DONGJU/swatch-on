@@ -1,10 +1,10 @@
 <template>
-  <div class="mood-board-item-container">
+  <div class="mood-board-item-container" v-once>
     <div class="mood-board-item-model-images">
       <div
         class="wrap-model-image"
         v-for="(modelImage, index) in getMoodBoardItemModelImagesMaxFour"
-        :key="index"
+        :key="getMoodBoardItemModelImageKey(index)"
       >
         <img
           class="model-image"
@@ -26,12 +26,29 @@
           {{getMoodBoardProductQuantity}} Products
         </p>
       </div>
+      <div class="wrap-mood-board-title">
+        <p class="mood-board-title">
+          {{moodBoardItem.title}}
+        </p>
+        <div class="mood-board-color-list">
+          <div
+            class="mood-board-color"
+            v-for="(color, index) in getMoodBoardColorList"
+            :key="getMoodBoardColorKey(index)"
+            :style="{backgroundColor: color.hex}"
+          />
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
-import { marketingItemsImageType, marketingItemType } from '@/interface/marketingItems';
+import {
+  marketingItemsColorType,
+  marketingItemsImageType,
+  marketingItemType
+} from '@/interface/marketingItems';
 import { ComputedRef } from 'vue';
 
 const props = defineProps<{
@@ -51,11 +68,29 @@ const getMoodBoardItemModelImagesMaxFour: ComputedRef<marketingItemsImageType[]>
   return moodBoardItemModelImages;
 });
 
+const getMoodBoardItemModelImageKey = (index: number): string => {
+  const moodBoardItemModelImageKey = `mood-board-item-model-image-key-${index}`;
+
+  return moodBoardItemModelImageKey;
+}
+
 const getMoodBoardProductQuantity: ComputedRef<number> = computed(() => {
   const moodBoardProductQuantity = props.moodBoardItem.products.length;
 
   return moodBoardProductQuantity;
+});
+
+const getMoodBoardColorList: ComputedRef<marketingItemsColorType[]> = computed(() => {
+  const moodBoardColorList = props.moodBoardItem.color || [];
+
+  return moodBoardColorList;
 })
+
+const getMoodBoardColorKey = (index: number): string => {
+  const moodBoardColorKey = `mood-board-color-key-${index}`;
+
+  return moodBoardColorKey;
+}
 
 </script>
 
@@ -118,7 +153,48 @@ const getMoodBoardProductQuantity: ComputedRef<number> = computed(() => {
         color: var(--gs-70);
       }
     }
-  }
 
+    .wrap-mood-board-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .mood-board-title {
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: -0.05em;
+        color: var(--gs-70);
+      }
+
+      .mood-board-color-list {
+        display: flex;
+        align-items: center;
+        gap: 1px;
+
+        .mood-board-color {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mood-board-item-container {
+    .wrap-mood-board-info {
+      .wrap-mood-board-category {
+        .mood-board-product-quantity {
+          font-size: 14px;
+        }
+      }
+
+      .wrap-mood-board-title {
+        .mood-board-title {
+          font-size: 20px;
+        }
+      }
+    }
+  }
 }
 </style>

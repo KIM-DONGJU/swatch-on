@@ -1,7 +1,9 @@
 <template>
   <div class="default-layout-container">
     <HorizontalNavigationBar />
-    <slot />
+    <div class="wrap-slot">
+      <slot />
+    </div>
   </div>
 </template>
 
@@ -17,6 +19,14 @@ import {
   position: relative;
   height: 100vh;
   background-color: var(--gs-f7);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .wrap-slot {
+    flex: 1;
+    overflow: auto;
+  }
 }
 
 
