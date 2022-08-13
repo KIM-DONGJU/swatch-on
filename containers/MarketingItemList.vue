@@ -7,9 +7,8 @@
     <div class="wrap-marketing-item-list">
       <component
         v-for="items in getBundleMarketingItems"
-        :key="getBundleMarketingItemsKey(items)"
         :is="viewMarketingItemsComponent(items)"
-        :bundleMoodBoardItems="items"
+        :MarketingItems="items"
       />
     </div>
   </div>
@@ -19,7 +18,8 @@
 import { getMarketingItemsJson } from '@/apis/marketingItems';
 import {
   MarketingItemsCategory,
-  MoodBoardIThreeItems
+  MoodBoardIThreeItems,
+  DiscoveryItem,
 } from '@/components';
 import { ComputedRef } from 'vue';
 import {
@@ -133,19 +133,18 @@ const selectCategory = (key: string): void => {
   setMarketingItems(key);
 };
 
-const getBundleMarketingItemsKey = (items: marketingItemType[]): string => {
-  const firstItemId = items[0].id;
-  const bundleMarketingItemsKey = `bundle-marketing-items-key-${firstItemId}}`;
-
-  return bundleMarketingItemsKey;
-}
-
 const viewMarketingItemsComponent = (items: marketingItemType[]): any  => {
-  const isMoodBoardItem = items[0].itemType === 'mood_board';
+  const { itemType } = items[0];
+  const isMoodBoardItem = itemType === 'mood_board';
 
   if (isMoodBoardItem) {
     return MoodBoardIThreeItems
   };
+
+  const isDiscoveryItem = itemType === 'eyes_on' || itemType === 'special_exhibition' || itemType === 'type_suggestion';
+  if (isDiscoveryItem) {
+    return DiscoveryItem
+  }
 
   return null;
 }

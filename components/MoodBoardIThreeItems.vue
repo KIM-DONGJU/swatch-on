@@ -1,7 +1,7 @@
 <template>
   <div class="mood-board-three-items-container">
     <MoodBoardItem
-      v-for="moodBoardItem in bundleMoodBoardItems"
+      v-for="moodBoardItem in marketingItems"
       :key="getMoodBoardItemKey(moodBoardItem)"
       :moodBoardItem="moodBoardItem"
     />
@@ -10,11 +10,11 @@
 
 <script lang="ts" setup>
 import { marketingItemType } from '@/interface/marketingItems';
-import { MoodBoardItem } from '@/components';
+import {MoodBoardItem } from '@/components';
 
 
 const props = defineProps<{
-  bundleMoodBoardItems: marketingItemType[],
+  marketingItems: marketingItemType[],
 }>();
 
 const getMoodBoardItemKey = (moodBoardItem: marketingItemType): string => {
