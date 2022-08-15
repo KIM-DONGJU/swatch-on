@@ -7,8 +7,9 @@
     <div class="wrap-marketing-item-list">
       <component
         v-for="items in getBundleMarketingItems"
+        :key="getMarketingItemsKey(items)"
         :is="viewMarketingItemsComponent(items)"
-        :MarketingItems="items"
+        :marketingItems="items"
       />
     </div>
   </div>
@@ -48,6 +49,13 @@ const marketingItems: responseMarketingItemsType = reactive({
   perPage: 1,
   total: 1,
 });
+
+const getMarketingItemsKey = (items: marketingItemType[]): string => {
+  const firstItemId = items[0].id;
+  const bundleMarketingItemsKey = `bundle-marketing-items-key-${firstItemId}}`;
+
+  return bundleMarketingItemsKey;
+}
 
 const getBundleMarketingItems: ComputedRef<(marketingItemType[])[]> = computed(() => {
   const bundleMarketingItems = [];
