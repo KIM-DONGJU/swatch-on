@@ -1,0 +1,39 @@
+<template>
+  <div class="eyes-on-six-items-container">
+    <EyesOnItem
+      v-for="item in marketingItems"
+      :key="eyesOnItemKey(item)"
+      :eyesOnItem="item"
+    />
+  </div>
+</template>
+
+<script lang="ts" setup>
+import { marketingItemType } from '@/interface/marketingItems';
+import { EyesOnItem } from '@/components';
+
+defineProps<{
+  marketingItems: marketingItemType[],
+}>();
+
+const eyesOnItemKey = (eyesOnItem: marketingItemType): string => {
+  const itemId = eyesOnItem.id;
+  const eyesOnItemKey = `eyes-on-item-key-${itemId}`;
+
+  return eyesOnItemKey
+}
+</script>
+
+<style lang="scss" scoped>
+.eyes-on-six-items-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+  align-items: center;
+}
+
+</style>
+
