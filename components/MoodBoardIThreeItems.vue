@@ -10,16 +10,16 @@
 
 <script lang="ts" setup>
 import { marketingItemType } from '@/interface/marketingItems';
-import {MoodBoardItem } from '@/components';
+import { MoodBoardItem } from '@/components';
 
 
-const props = defineProps<{
+defineProps<{
   marketingItems: marketingItemType[],
 }>();
 
 const getMoodBoardItemKey = (moodBoardItem: marketingItemType): string => {
   const itemId = moodBoardItem.id;
-  const moodBoardItemKey = `marketing-items-key-${itemId}`;
+  const moodBoardItemKey = `mood-board-items-key-${itemId}`;
 
   return moodBoardItemKey
 }

@@ -20,7 +20,7 @@ import { getMarketingItemsJson } from '@/apis/marketingItems';
 import {
   MarketingItemsCategory,
   MoodBoardIThreeItems,
-  DiscoveryItem,
+  EyesOnSixItems,
 } from '@/components';
 import { ComputedRef } from 'vue';
 import {
@@ -149,9 +149,9 @@ const viewMarketingItemsComponent = (items: marketingItemType[]): any  => {
     return MoodBoardIThreeItems
   };
 
-  const isDiscoveryItem = itemType === 'eyes_on' || itemType === 'special_exhibition' || itemType === 'type_suggestion';
-  if (isDiscoveryItem) {
-    return DiscoveryItem
+  const isEyesOnItem = itemType === 'eyes_on';
+  if (isEyesOnItem) {
+    return EyesOnSixItems
   }
 
   return null;
