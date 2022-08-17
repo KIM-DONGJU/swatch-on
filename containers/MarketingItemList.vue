@@ -21,6 +21,7 @@ import {
   MarketingItemsCategory,
   MoodBoardIThreeItems,
   EyesOnSixItems,
+TypeSuggestionItemWrapper,
 } from '@/components';
 import { ComputedRef } from 'vue';
 import {
@@ -152,6 +153,11 @@ const viewMarketingItemsComponent = (items: marketingItemType[]): any  => {
   const isEyesOnItem = itemType === 'eyes_on';
   if (isEyesOnItem) {
     return EyesOnSixItems
+  }
+
+  const isTypeSuggestion = itemType === 'type_suggestion';
+  if (isTypeSuggestion) {
+    return TypeSuggestionItemWrapper
   }
 
   return null;

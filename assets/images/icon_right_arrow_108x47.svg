@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108.063" height="47.403">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#222;stroke-linecap:square}
+        </style>
+    </defs>
+    <g id="right_arrow" data-name="right arrow" transform="translate(.5 .637)">
+        <path id="패스_1191" data-name="패스 1191" class="cls-1" d="M7181.547 7183.637s7.993 22.957 26.412 22.99" transform="translate(-7100.896 -7183.637)"/>
+        <path id="패스_1192" data-name="패스 1192" class="cls-1" d="M7181.547 7206.627s7.993-22.956 26.412-22.99" transform="translate(-7100.896 -7160.498)"/>
+        <path id="선_951" data-name="선 951" class="cls-1" transform="translate(0 23.066)" d="M106.011 0H0"/>
+    </g>
+</svg>

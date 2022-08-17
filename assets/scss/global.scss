@@ -19,16 +19,59 @@ span {
 }
 
 :root {
-  --app-header-height: 56px;
-  --border-dark: #707070;
   --calm-purple: #7e71dd;
+  --hover-calm-purple: #9d93e5;
+  --press-calm-purple: #665abe;
   --calm-purple-bg-lv0: rgba(126,113,221,0.2);
-  --filter-groups-width: 246px;
+  --calm-purple-bg-lv1: rgba(126,113,221,0.1);
+  --calm-purple-bg-lv2: rgba(126,113,221,0.08);
+  --calm-purple-bg-lv3: rgba(126,113,221,0.05);
+  --calm-blue: #5b6dd3;
+  --hover-calm-blue: #7a89db;
+  --press-calm-blue: #4857af;
+  --calm-blue-bg-lv0: rgba(91,109,211,0.2);
+  --calm-blue-bg-lv1: rgba(91,109,211,0.1);
+  --calm-blue-bg-lv2: rgba(91,109,211,0.08);
+  --calm-blue-bg-lv3: rgba(91,109,211,0.05);
+  --badge-purple: #f6f4fc;
+  --gs-10: #101010;
+  --gs-1c: #1c1c1c;
   --gs-22: #222;
   --gs-44: #444;
+  --gs-66: #666;
   --gs-70: #707070;
+  --gs-88: #888;
+  --gs-aa: #aaa;
+  --gs-cc: #ccc;
+  --gs-ed: #ededed;
   --gs-f7: #f7f7f7;
+  --gs-e0: #e0e0e0;
   --white: #fff;
+  --black: #000;
+  --border-dark: var(--gs-70);
+  --border-base: var(--gs-e0);
+  --checkout-gray: hsla(0,0%,40%,0.05);
+  --disable-bg: var(--gs-cc);
+  --disable-border: var(--gs-aa);
+  --yellow: #ff0;
+  --highlight: var(--yellow);
+  --digital-print-green: #23a4cb;
+  --digital-print-green-bg: rgba(35,164,203,0.08);
+  --sustainable-green: #52b072;
+  --sustainable-green-bg: rgba(82,176,114,0.05);
+  --fb-order-in-progress: #fab65a;
+  --shipment-in-progress-green: #a8d854;
+  --shipment-in-progress-green-bg: rgba(168,216,84,0.1);
+  --shipment-shipped-green: #42b584;
+  --shipment-shipped-green-bg: rgba(66,181,132,0.1);
+  --shipment-completed-blue: #1e53c9;
+  --success: var(--shipment-shipped-green);
+  --danger: #c4506b;
+  --danger-light: #f74971;
+  --danger-light-bg: #fcf1f4;
+  --app-header-height: 56px;
+  --view-qualities-padding: 16px;
+  --filter-groups-width: 246px;
 }
 
 
