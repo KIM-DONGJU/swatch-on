@@ -30,9 +30,23 @@ const eyesOnItemKey = (eyesOnItem: marketingItemType): string => {
   max-width: 1920px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 16px;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 8px;
+  row-gap: 20px;
   align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .eyes-on-six-items-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .eyes-on-six-items-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
 
 </style>
