@@ -40,6 +40,12 @@ defineProps<{
   margin: 0 auto;
   display: flex;
   align-items: center;
+  border-radius: 8px;
+  padding: 16px;
+  background-image: linear-gradient(280deg,var(--white),var(--gs-f7));
+  box-shadow: 3px 3px 6px -3px rgba(0,0,0,.1)!important;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
 
   .wrap-suggestion-information {
     display: flex;
