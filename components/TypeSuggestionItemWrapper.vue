@@ -5,7 +5,7 @@
         Suggestions by type
       </p>
       <p class="suggestion-title">
-        {{marketingItems[0].title}}
+        {{marketingItems[0]?.title}}
       </p>
       <p class="suggestion-default-contents">
         Our best selections from the below categories.
@@ -18,18 +18,29 @@
         />
       </div>
     </div>
-    <div class="suggestion-item-list">
-
-    </div>
+    <TypeSuggestionProducts
+      :products="getProductsItems"
+    />
   </div>
 </template>
 
 <script lang="ts"  setup>
-import { marketingItemType } from '@/interface/marketingItems';
+import {
+  marketingItemsProductType,
+  marketingItemType
+} from '@/interface/marketingItems';
+import { TypeSuggestionProducts } from '@/components';
+import { ComputedRef } from 'vue';
 
-defineProps<{
+const props = defineProps<{
   marketingItems: marketingItemType[],
 }>();
+
+const getProductsItems: ComputedRef<marketingItemsProductType[]>  = computed(() => {
+  const productsItems = props.marketingItems[0]?.products || [];
+
+  return productsItems;
+})
 
 </script>
 
@@ -40,6 +51,7 @@ defineProps<{
   margin: 0 auto;
   display: flex;
   align-items: center;
+  gap: 40px;
   border-radius: 8px;
   padding: 16px;
   background-image: linear-gradient(280deg,var(--white),var(--gs-f7));
@@ -51,6 +63,8 @@ defineProps<{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    flex: 1 0 0;
+    max-width: 424px;
 
     .wrap-type-text {
       padding: 4px 16px;
