@@ -5,7 +5,7 @@
         Suggestions by type
       </p>
       <p class="suggestion-title">
-        {{marketingItems[0]?.title}}
+        {{getProductTitle}}
       </p>
       <p class="suggestion-default-contents">
         Our best selections from the below categories.
@@ -40,6 +40,12 @@ const getProductsItems: ComputedRef<marketingItemsProductType[]>  = computed(() 
   const productsItems = props.marketingItems[0]?.products || [];
 
   return productsItems;
+})
+
+const getProductTitle: ComputedRef<string> = computed(() => {
+  const productTitle = props.marketingItems[0]?.title;
+
+  return productTitle;
 })
 
 </script>

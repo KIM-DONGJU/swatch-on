@@ -8,18 +8,18 @@
       <div class="wrap-product-image">
         <img
           class="product-image"
-          :src="product.image?.small"
+          :src="getProductImage(product)"
           alt="SwatchOn - No. 1 Wholesale fabric platform for Fashion Brands"
         >
       </div>
       <div class="product-information">
         <div class="product-price">
-          $ {{product.quality.price.bulk.salePrice}}
+          $ {{getProductSalePrice(product)}}
         </div>
         <div class="wrap-ingredient">
           <p
             class="ingredient"
-            v-for="ingredient in product.quality.contents"
+            v-for="ingredient in getProductQualityContents(product)"
             :key="`ingredient-key-${ingredient.id}`"
           >
             {{ingredient.abbreviation}}({{ingredient.ratio}}%)
@@ -31,11 +31,32 @@
 </template>
 
 <script lang="ts" setup>
-import { marketingItemsProductType } from '~~/interface/marketingItems';
+import {
+  marketingItemsProductType,
+  marketingItemsQualityContentsType,
+} from '@/interface/marketingItems';
 
 defineProps<{
   products: marketingItemsProductType[],
 }>();
+
+const getProductImage = (product: marketingItemsProductType): string => {
+  const productImage = product.image.small;
+
+  return productImage;
+};
+
+const getProductSalePrice = (product: marketingItemsProductType): number => {
+  const productSalePrice = product.quality.price.bulk.salePrice;
+
+  return productSalePrice;
+};
+
+const getProductQualityContents = (product: marketingItemsProductType): marketingItemsQualityContentsType[] => {
+  const productQualityContents = product.quality?.contents || [];
+
+  return productQualityContents;
+}
 
 
 </script>
