@@ -74,6 +74,22 @@ span {
   --filter-groups-width: 246px;
 }
 
+@media (min-width: 768px) {
+  :root {
+    --width-gradient-section: 560px;
+    --width-overwrapping: 160px;
+    --padding-gradient-section: 56px;
+  }
+}
+
+@media (min-width: 1400px) {
+  :root {
+    --width-gradient-section: 680px;
+    --width-overwrapping: 200px;
+    --padding-gradient-section: 96px;
+  }
+}
+
 
 @media screen and (min-width: 992px) {
   :root {

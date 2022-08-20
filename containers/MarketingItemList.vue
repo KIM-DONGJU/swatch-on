@@ -21,9 +21,13 @@ import {
   MarketingItemsCategory,
   MoodBoardIThreeItems,
   EyesOnSixItems,
-TypeSuggestionItemWrapper,
+  TypeSuggestionItemWrapper,
+  TrendingOnItem,
 } from '@/components';
-import { ComputedRef } from 'vue';
+import {
+  Component as ComponentType,
+  ComputedRef
+} from 'vue';
 import {
   marketingItemType,
   requestMarketingItemsJsonType,
@@ -142,7 +146,7 @@ const selectCategory = (key: string): void => {
   setMarketingItems(key);
 };
 
-const viewMarketingItemsComponent = (items: marketingItemType[]): any  => {
+const viewMarketingItemsComponent = (items: marketingItemType[]): ComponentType  => {
   const { itemType } = items[0];
   const isMoodBoardItem = itemType === 'mood_board';
 
@@ -155,9 +159,14 @@ const viewMarketingItemsComponent = (items: marketingItemType[]): any  => {
     return EyesOnSixItems
   }
 
-  const isTypeSuggestion = itemType === 'type_suggestion';
-  if (isTypeSuggestion) {
+  const isTypeSuggestionItem = itemType === 'type_suggestion';
+  if (isTypeSuggestionItem) {
     return TypeSuggestionItemWrapper
+  }
+
+  const isTrendingOnItem = itemType === 'trending_on';
+  if (isTrendingOnItem) {
+    return TrendingOnItem
   }
 
   return null;
