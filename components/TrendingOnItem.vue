@@ -3,17 +3,17 @@
     <div class="wrap-trending-on-item">
       <img
         class="trending-on-item-image"
-        :src="marketingItems[0].images[0].large"
+        :src="getImageUrl"
         alt="SwatchOn - No. 1 Wholesale fabric platform for Fashion Brands"
       >
       <div class="wrap-trending-on-item-contents">
         <div class="gradient-section">
           <div
-            :style="`background-color: ${marketingItems[0].color[0].hex}`"
+            :style="`background-color: ${getBackgroundColor}`"
             class="solid"
           />
           <div
-            :style="`background: linear-gradient(to right, ${marketingItems[0].color[0].hex}, transparent)`"
+            :style="`background: linear-gradient(to right, ${getBackgroundColor}, transparent)`"
             class="over-wrapping"
           />
         </div>
@@ -23,9 +23,16 @@
               TrendingOn
             </span>
             <span class="trending-on-item-season">
-              {{marketingItems[0].subtitle}} Vol.{{getSubTitleNumber}}
+              {{getSubTitle}} Vol.{{getSubTitleNumber}}
             </span>
           </p>
+          <p class="trending-on-item-title">
+            {{getTitle}}
+          </p>
+          <div
+            class="wrap-trending-on-description"
+            v-html="getDescription"
+          />
         </div>
       </div>
     </div>
@@ -40,11 +47,41 @@ const props = defineProps<{
   marketingItems: marketingItemType[],
 }>();
 
+const getImageUrl: ComputedRef<string> = computed(() => {
+  const imageUrl = props.marketingItems[0].images[0].large;
+
+  return imageUrl;
+});
+
+const getBackgroundColor: ComputedRef<string> = computed(() => {
+  const backgroundColor = props.marketingItems[0].color[0].hex;
+
+  return backgroundColor;
+});
+
+const getSubTitle: ComputedRef<string> = computed(() => {
+  const { subtitle } = props.marketingItems[0];
+
+  return subtitle;
+})
+
 const getSubTitleNumber: ComputedRef<string> = computed(() => {
   const splitSharingKey = props.marketingItems[0].sharingKey.split('-');
   const subtitle = splitSharingKey.pop();
 
   return subtitle;
+});
+
+const getTitle: ComputedRef<string> = computed(() => {
+  const { title } = props.marketingItems[0];
+
+  return title;
+});
+
+const getDescription: ComputedRef<string> = computed(() => {
+  const { description } = props.marketingItems[0];
+
+  return description;
 })
 </script>
 
@@ -121,6 +158,20 @@ const getSubTitleNumber: ComputedRef<string> = computed(() => {
             font-size: 500;
             font-weight: 500;
           }
+        }
+
+        .trending-on-item-title {
+          margin-top: 8px;
+          font-size: 44px;
+          font-weight: 700;
+          line-height: 1.4;
+        }
+
+        .wrap-trending-on-description {
+          margin-top: 28px;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 34px;
         }
       }
     }
