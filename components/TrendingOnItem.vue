@@ -1,39 +1,37 @@
 <template>
   <div class="trending-on-item-container">
-    <div class="wrap-trending-on-item">
-      <img
-        class="trending-on-item-image"
-        :src="getImageUrl"
-        alt="SwatchOn - No. 1 Wholesale fabric platform for Fashion Brands"
-      >
-      <div class="wrap-trending-on-item-contents">
-        <div class="gradient-section">
-          <div
-            :style="`background-color: ${getBackgroundColor}`"
-            class="solid"
-          />
-          <div
-            :style="`background: linear-gradient(to right, ${getBackgroundColor}, transparent)`"
-            class="over-wrapping"
-          />
-        </div>
-        <div class="trending-on-item-contents">
-          <p class="trending-on-item-header">
-            <span class="trending-on-item-subtitle">
-              TrendingOn
-            </span>
-            <span class="trending-on-item-season">
-              {{getSubTitle}} Vol.{{getSubTitleNumber}}
-            </span>
-          </p>
-          <p class="trending-on-item-title">
-            {{getTitle}}
-          </p>
-          <div
-            class="wrap-trending-on-description"
-            v-html="getDescription"
-          />
-        </div>
+    <img
+      class="trending-on-item-image"
+      :src="getImageUrl"
+      alt="SwatchOn - No. 1 Wholesale fabric platform for Fashion Brands"
+    >
+    <div class="wrap-trending-on-item-contents">
+      <div class="gradient-section">
+        <div
+          :style="`background-color: ${getBackgroundColor}`"
+          class="solid"
+        />
+        <div
+          :style="`background: linear-gradient(to right, ${getBackgroundColor}, transparent)`"
+          class="over-wrapping"
+        />
+      </div>
+      <div class="trending-on-item-contents">
+        <p class="trending-on-item-header">
+          <span class="trending-on-item-subtitle">
+            TrendingOn
+          </span>
+          <span class="trending-on-item-season">
+            {{getSubTitle}} Vol.{{getSubTitleNumber}}
+          </span>
+        </p>
+        <p class="trending-on-item-title">
+          {{getTitle}}
+        </p>
+        <div
+          class="wrap-trending-on-description"
+          v-html="getDescription"
+        />
       </div>
     </div>
   </div>
@@ -94,85 +92,80 @@ const getDescription: ComputedRef<string> = computed(() => {
   margin: 0 auto;
   overflow: hidden;
 
-  .wrap-trending-on-item {
-    position: relative;
+  .trending-on-item-image {
+    margin-left: calc(var(--width-gradient-section) - var(--width-overwrapping));
     width: 100%;
     height: 100%;
-    .trending-on-item-image {
-      margin-left: calc(var(--width-gradient-section) - var(--width-overwrapping));
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+    object-fit: cover;
+  }
 
-    .wrap-trending-on-item-contents {
+  .wrap-trending-on-item-contents {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .gradient-section {
+      width: var(--width-gradient-section);
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
-      padding: 12px 16px;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
 
-      .gradient-section {
-        width: var(--width-gradient-section);
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
+      .solid {
+        flex: 1;
+        height: 100%;
+      }
+
+      .over-wrapping {
+        width: var(--width-overwrapping);
+        height: 100%;
+      }
+    }
+
+    .trending-on-item-contents {
+      position: relative;
+      padding-left: var(--padding-gradient-section);
+      max-width: calc(var(--width-gradient-section) - var(--width-overwrapping));
+      color: #fff;
+
+      .trending-on-item-header {
         display: flex;
+        align-items: center;
+        gap: 20px;
 
-        .solid {
-          flex: 1;
-          height: 100%;
+        .trending-on-item-subtitle {
+          flex: 0 0 auto;
+          font-size: 16px;
+          font-weight: 700;
         }
 
-        .over-wrapping {
-          width: var(--width-overwrapping);
-          height: 100%;
+        .trending-on-item-season {
+          flex: 1 1 auto;
+          font-size: 500;
+          font-weight: 500;
         }
       }
 
-      .trending-on-item-contents {
-        position: relative;
-        padding-left: var(--padding-gradient-section);
-        max-width: calc(var(--width-gradient-section) - var(--width-overwrapping));
-        color: #fff;
+      .trending-on-item-title {
+        margin-top: 8px;
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 1.4;
+      }
 
-        .trending-on-item-header {
-          display: flex;
-          align-items: center;
-          gap: 20px;
-
-          .trending-on-item-subtitle {
-            flex: 0 0 auto;
-            font-size: 16px;
-            font-weight: 700;
-          }
-
-          .trending-on-item-season {
-            flex: 1 1 auto;
-            font-size: 500;
-            font-weight: 500;
-          }
-        }
-
-        .trending-on-item-title {
-          margin-top: 8px;
-          font-size: 44px;
-          font-weight: 700;
-          line-height: 1.4;
-        }
-
-        .wrap-trending-on-description {
-          margin-top: 28px;
-          font-size: 18px;
-          font-weight: 500;
-          line-height: 34px;
-        }
+      .wrap-trending-on-description {
+        margin-top: 28px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 34px;
       }
     }
   }
