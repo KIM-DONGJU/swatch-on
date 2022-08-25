@@ -171,4 +171,41 @@ const getDescription: ComputedRef<string> = computed(() => {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .trending-on-item-container {
+    display: flex;
+    flex-direction: column;
+
+    .wrap-trending-on-item-contents {
+      height: 90px;
+      top: unset;
+      background: rgba(0,0,0,.5);
+      padding: 12px 16px;
+
+      .gradient-section {
+        display: none;
+      }
+
+      .trending-on-item-contents {
+        .trending-on-item-header {
+          .trending-on-item-subtitle {
+            font-weight: normal;
+          }
+          .trending-on-item-season {
+            font-weight: normal;
+            font-size: 15px;
+          }
+        }
+        .trending-on-item-title {
+          font-size: 28px;
+        }
+
+        .wrap-trending-on-description {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
 </style>
