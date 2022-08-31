@@ -23,6 +23,7 @@ import {
   EyesOnSixItems,
   TypeSuggestionItemWrapper,
   TrendingOnItem,
+  SpecialExhibitionItem,
 } from '@/components';
 import {
   Component as ComponentType,
@@ -167,6 +168,11 @@ const viewMarketingItemsComponent = (items: marketingItemType[]): ComponentType 
   const isTrendingOnItem = itemType === 'trending_on';
   if (isTrendingOnItem) {
     return TrendingOnItem
+  }
+
+  const isSpecialExhibitionItem = itemType === 'special_exhibition';
+  if (isSpecialExhibitionItem) {
+    return SpecialExhibitionItem
   }
 
   return null;

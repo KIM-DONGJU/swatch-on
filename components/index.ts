@@ -8,3 +8,4 @@ export { default as EyesOnItem } from './EyesOnItem.vue';
 export { default as TypeSuggestionItemWrapper } from './TypeSuggestionItemWrapper.vue';
 export { default as TypeSuggestionProducts } from './TypeSuggestionProducts.vue';
 export { default as TrendingOnItem } from './TrendingOnItem.vue';
+export { default as SpecialExhibitionItem } from './SpecialExhibitionItem.vue';
