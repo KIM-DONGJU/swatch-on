@@ -14,7 +14,7 @@
 </template>
 <script lang="ts" setup>
 import { marketingItemType } from '@/interface/marketingItems';
-import { ComputedRef } from 'vue';
+import { ComputedRef } from "vue";
 
 const props = defineProps<{
   eyesOnItem: marketingItemType,
