@@ -5,7 +5,7 @@
         Suggestions by type
       </p>
       <p class="suggestion-title">
-        {{getProductTitle}}
+        {{ getProductTitle }}
       </p>
       <p class="suggestion-default-contents">
         Our best selections from the below categories.
@@ -15,7 +15,7 @@
           class="arrow-image"
           src="@/assets/images/icon_right_arrow_108x47.svg"
           alt="Arrow Right"
-        />
+        >
       </div>
     </div>
     <TypeSuggestionProducts
@@ -25,28 +25,28 @@
 </template>
 
 <script lang="ts"  setup>
+import { ComputedRef } from 'vue';
 import {
   marketingItemsProductType,
-  marketingItemType
+  marketingItemType,
 } from '@/interface/marketingItems';
 import { TypeSuggestionProducts } from '@/components';
-import { ComputedRef } from 'vue';
 
 const props = defineProps<{
   marketingItems: marketingItemType[],
 }>();
 
-const getProductsItems: ComputedRef<marketingItemsProductType[]>  = computed(() => {
+const getProductsItems: ComputedRef<marketingItemsProductType[]> = computed(() => {
   const productsItems = props.marketingItems[0]?.products || [];
 
   return productsItems;
-})
+});
 
 const getProductTitle: ComputedRef<string> = computed(() => {
   const productTitle = props.marketingItems[0]?.title;
 
   return productTitle;
-})
+});
 
 </script>
 

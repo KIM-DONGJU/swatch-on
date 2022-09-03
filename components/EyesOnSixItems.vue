@@ -20,8 +20,8 @@ const eyesOnItemKey = (eyesOnItem: marketingItemType): string => {
   const itemId = eyesOnItem.id;
   const eyesOnItemKey = `eyes-on-item-key-${itemId}`;
 
-  return eyesOnItemKey
-}
+  return eyesOnItemKey;
+};
 </script>
 
 <style lang="scss" scoped>
@@ -50,4 +50,3 @@ const eyesOnItemKey = (eyesOnItem: marketingItemType): string => {
 }
 
 </style>
-

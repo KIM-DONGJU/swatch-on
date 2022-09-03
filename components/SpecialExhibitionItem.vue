@@ -7,10 +7,10 @@
       Featured Collections
     </p>
     <p class="special-exhibition-item-title">
-      {{marketingItems[0].title}}
+      {{ marketingItems[0].title }}
     </p>
     <p class="special-exhibition-item-description">
-      {{marketingItems[0].description}}
+      {{ marketingItems[0].description }}
     </p>
     <button class="more-button">
       LEARN MORE
@@ -23,14 +23,14 @@ import { ComputedRef } from 'vue';
 import { marketingItemType } from '~~/interface/marketingItems';
 
 const props = defineProps<{
-  marketingItems: marketingItemType[]
+  marketingItems: marketingItemType[],
 }>();
 
 const getBackgroundImageUrl: ComputedRef<string> = computed(() => {
   const backgroundImageUrl = props.marketingItems[0].images[0].large;
 
   return backgroundImageUrl;
-})
+});
 
 </script>
 

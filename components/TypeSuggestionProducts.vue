@@ -1,9 +1,9 @@
 <template>
   <div class="type-suggestion-products-container">
     <div
-      class="wrap-product-information"
       v-for="product in products"
       :key="`product-key-${product.id}`"
+      class="wrap-product-information"
     >
       <div class="wrap-product-image">
         <img
@@ -14,15 +14,15 @@
       </div>
       <div class="product-information">
         <div class="product-price">
-          $ {{getProductSalePrice(product)}}
+          $ {{ getProductSalePrice(product) }}
         </div>
         <div class="wrap-ingredient">
           <p
-            class="ingredient"
             v-for="ingredient in getProductQualityContents(product)"
             :key="`ingredient-key-${ingredient.id}`"
+            class="ingredient"
           >
-            {{ingredient.abbreviation}}({{ingredient.ratio}}%)
+            {{ ingredient.abbreviation }}({{ ingredient.ratio }}%)
           </p>
         </div>
       </div>
@@ -56,8 +56,7 @@ const getProductQualityContents = (product: marketingItemsProductType): marketin
   const productQualityContents = product.quality?.contents || [];
 
   return productQualityContents;
-}
-
+};
 
 </script>
 
@@ -135,6 +134,5 @@ const getProductQualityContents = (product: marketingItemsProductType): marketin
     }
   }
 }
-
 
 </style>

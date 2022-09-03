@@ -8,13 +8,14 @@
       >
     </div>
     <p class="eyes-on-title">
-      {{eyesOnItem.title}}
+      {{ eyesOnItem.title }}
     </p>
   </div>
 </template>
+
 <script lang="ts" setup>
+import { ComputedRef } from 'vue';
 import { marketingItemType } from '@/interface/marketingItems';
-import { ComputedRef } from "vue";
 
 const props = defineProps<{
   eyesOnItem: marketingItemType,
@@ -24,10 +25,9 @@ const getEyesOnImageUrl: ComputedRef<string> = computed(() => {
   const eyesOnItemImage = props.eyesOnItem.images[0]?.medium;
 
   return eyesOnItemImage;
-})
+});
 
 </script>
-
 
 <style lang="scss" scoped>
 .eyes-on-item-container {

@@ -12,7 +12,6 @@
 import { marketingItemType } from '@/interface/marketingItems';
 import { MoodBoardItem } from '@/components';
 
-
 defineProps<{
   marketingItems: marketingItemType[],
 }>();
@@ -21,8 +20,8 @@ const getMoodBoardItemKey = (moodBoardItem: marketingItemType): string => {
   const itemId = moodBoardItem.id;
   const moodBoardItemKey = `mood-board-items-key-${itemId}`;
 
-  return moodBoardItemKey
-}
+  return moodBoardItemKey;
+};
 
 </script>
 

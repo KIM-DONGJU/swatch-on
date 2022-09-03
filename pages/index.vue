@@ -1,18 +1,13 @@
 <template>
   <div class="home-root">
-    <OnboardingVideo />
-    <MarketingItemList />
+    <OnboardingVideo/>
+    <MarketingItemList/>
   </div>
 </template>
 
 <script lang="ts" setup>
-import {
-  OnboardingVideo
-} from '@/components';
-
-import {
-  MarketingItemList
-} from '@/containers';
+import { MarketingItemList } from '@/containers';
+import { OnboardingVideo } from '@/components';
 
 </script>
 

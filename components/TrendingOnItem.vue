@@ -22,11 +22,11 @@
             TrendingOn
           </span>
           <span class="trending-on-item-season">
-            {{getSubTitle}} Vol.{{getSubTitleNumber}}
+            {{ getSubTitle }} Vol.{{ getSubTitleNumber }}
           </span>
         </p>
         <p class="trending-on-item-title">
-          {{getTitle}}
+          {{ getTitle }}
         </p>
         <div
           class="wrap-trending-on-description"
@@ -38,8 +38,8 @@
 </template>
 
 <script lang="ts" setup>
-import { marketingItemType } from '@/interface/marketingItems';
 import { ComputedRef } from 'vue';
+import { marketingItemType } from '@/interface/marketingItems';
 
 const props = defineProps<{
   marketingItems: marketingItemType[],
@@ -61,7 +61,7 @@ const getSubTitle: ComputedRef<string> = computed(() => {
   const { subtitle } = props.marketingItems[0];
 
   return subtitle;
-})
+});
 
 const getSubTitleNumber: ComputedRef<string> = computed(() => {
   const splitSharingKey = props.marketingItems[0].sharingKey.split('-');
@@ -80,7 +80,7 @@ const getDescription: ComputedRef<string> = computed(() => {
   const { description } = props.marketingItems[0];
 
   return description;
-})
+});
 </script>
 
 <style lang="scss" scoped>

@@ -1,15 +1,15 @@
-import { AllowedComponentProps } from 'vue'
+import { AllowedComponentProps } from 'vue';
 
 export interface requestMarketingItemsType {
   itemType: string,
   perPage: number,
   page: number,
-};
+}
 
 export interface requestMarketingItemsJsonType {
   itemType: string,
   page: number,
-};
+}
 
 export interface marketingItemsImageType {
   cation: string,
@@ -98,7 +98,7 @@ export interface marketingItemsColorType {
 }
 
 export interface marketingItemType {
-  id: number
+  id: number,
   sharingKey: string,
   sequence: number,
   status: string,

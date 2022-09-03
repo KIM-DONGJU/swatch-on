@@ -1,16 +1,14 @@
 <template>
   <div class="default-layout-container">
-    <HorizontalNavigationBar />
+    <HorizontalNavigationBar/>
     <div class="wrap-slot">
-      <slot />
+      <slot/>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import {
-  HorizontalNavigationBar
-} from '@/components';
+import { HorizontalNavigationBar } from '@/components';
 
 </script>
 
@@ -28,6 +26,5 @@ import {
     overflow: auto;
   }
 }
-
 
 </style>

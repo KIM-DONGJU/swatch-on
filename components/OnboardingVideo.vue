@@ -15,7 +15,10 @@
           playsinline
           muted
         >
-          <source src="@/assets/videos/swatchon_onboarding_teaser.mp4" type="video/mp4">
+          <source
+            src="@/assets/videos/swatchon_onboarding_teaser.mp4"
+            type="video/mp4"
+          >
         </video>
       </div>
       <div class="wrap-onboarding-contents">
@@ -27,7 +30,7 @@
           Learn how to get the most out of our sourcing platform!
         </p>
       </div>
-      <div class="white-triangle" />
+      <div class="white-triangle"/>
     </div>
   </div>
 </template>

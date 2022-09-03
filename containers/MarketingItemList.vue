@@ -6,9 +6,9 @@
     />
     <div class="wrap-marketing-item-list">
       <component
+        :is="viewMarketingItemsComponent(items)"
         v-for="items in getBundleMarketingItems"
         :key="getMarketingItemsKey(items)"
-        :is="viewMarketingItemsComponent(items)"
         :marketingItems="items"
       />
     </div>
@@ -16,7 +16,15 @@
 </template>
 
 <script lang="ts" setup>
-import { getMarketingItemsJson } from '@/apis/marketingItems';
+import {
+  Component as ComponentType,
+  ComputedRef,
+} from 'vue';
+import {
+  marketingItemType,
+  requestMarketingItemsJsonType,
+  responseMarketingItemsType,
+} from '@/interface/marketingItems';
 import {
   MarketingItemsCategory,
   MoodBoardIThreeItems,
@@ -25,15 +33,7 @@ import {
   TrendingOnItem,
   SpecialExhibitionItem,
 } from '@/components';
-import {
-  Component as ComponentType,
-  ComputedRef
-} from 'vue';
-import {
-  marketingItemType,
-  requestMarketingItemsJsonType,
-  responseMarketingItemsType
-} from '@/interface/marketingItems';
+import { getMarketingItemsJson } from '@/apis/marketingItems';
 
 const route = useRoute();
 const router = useRouter();
@@ -44,7 +44,7 @@ const getCurrentCategory: ComputedRef<string> = computed(() => {
 
   if (isNoSelectCategory) {
     return 'all';
-  };
+  }
 
   return currentCategory as string;
 });
@@ -61,7 +61,7 @@ const getMarketingItemsKey = (items: marketingItemType[]): string => {
   const bundleMarketingItemsKey = `bundle-marketing-items-key-${firstItemId}}`;
 
   return bundleMarketingItemsKey;
-}
+};
 
 const getBundleMarketingItems: ComputedRef<(marketingItemType[])[]> = computed(() => {
   const bundleMarketingItems = [];
@@ -77,10 +77,10 @@ const getBundleMarketingItems: ComputedRef<(marketingItemType[])[]> = computed((
       if (isThreeMoodBoard) {
         bundleMarketingItems.push(moodBoardBundler);
         moodBoardBundler = [];
-      };
+      }
 
       return;
-    };
+    }
 
     const isEyesOn = item.itemType === 'eyes_on';
     if (isEyesOn) {
@@ -93,7 +93,7 @@ const getBundleMarketingItems: ComputedRef<(marketingItemType[])[]> = computed((
       }
 
       return;
-    };
+    }
 
     bundleMarketingItems.push([item]);
   });
@@ -103,7 +103,7 @@ const getBundleMarketingItems: ComputedRef<(marketingItemType[])[]> = computed((
 
 const setMarketingItems = async (itemType: string): Promise<void> => {
   const searchRequirement: requestMarketingItemsJsonType = {
-    itemType: itemType,
+    itemType,
     page: 1,
   };
 
@@ -115,14 +115,14 @@ const setMarketingItems = async (itemType: string): Promise<void> => {
       items,
       page,
       perPage,
-      total
+      total,
     } = resData;
 
     marketingItems.items = items;
     marketingItems.page = page;
     marketingItems.perPage = perPage;
     marketingItems.total = total;
-  } catch(error) {
+  } catch (error) {
     console.log(error, '에러');
   }
 };
@@ -133,50 +133,48 @@ onMounted(() => {
 
 const selectCategory = (key: string): void => {
   const isCurrentCategory = getCurrentCategory.value === key;
-  if(isCurrentCategory) {
+  if (isCurrentCategory) {
     return;
-  };
+  }
 
   router.replace({
     path: route.path,
-    query: {
-      'item_type': key
-    }
+    query: { item_type: key },
   });
 
   setMarketingItems(key);
 };
 
-const viewMarketingItemsComponent = (items: marketingItemType[]): ComponentType  => {
+const viewMarketingItemsComponent = (items: marketingItemType[]): ComponentType => {
   const { itemType } = items[0];
   const isMoodBoardItem = itemType === 'mood_board';
 
   if (isMoodBoardItem) {
-    return MoodBoardIThreeItems
-  };
+    return MoodBoardIThreeItems;
+  }
 
   const isEyesOnItem = itemType === 'eyes_on';
   if (isEyesOnItem) {
-    return EyesOnSixItems
+    return EyesOnSixItems;
   }
 
   const isTypeSuggestionItem = itemType === 'type_suggestion';
   if (isTypeSuggestionItem) {
-    return TypeSuggestionItemWrapper
+    return TypeSuggestionItemWrapper;
   }
 
   const isTrendingOnItem = itemType === 'trending_on';
   if (isTrendingOnItem) {
-    return TrendingOnItem
+    return TrendingOnItem;
   }
 
   const isSpecialExhibitionItem = itemType === 'special_exhibition';
   if (isSpecialExhibitionItem) {
-    return SpecialExhibitionItem
+    return SpecialExhibitionItem;
   }
 
   return null;
-}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -208,7 +206,6 @@ const viewMarketingItemsComponent = (items: marketingItemType[]): ComponentType 
     }
   }
 }
-
 
 @media screen and (min-width: 1200px) {
   .marketing-item-list-container {
