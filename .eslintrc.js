@@ -21,6 +21,7 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
+    'import/no-extraneous-dependencies': 'off',
     'vuejs-accessibility/click-events-have-key-events': 'off',
     '@typescript-eslint/prefer-as-const': 'off',
     'import/extensions': [

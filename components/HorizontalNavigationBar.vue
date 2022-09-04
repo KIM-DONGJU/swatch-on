@@ -47,26 +47,26 @@
 <style lang="scss" scoped>
 
 .horizon-navigation-bar-container {
+  z-index: 6;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: var(--app-header-height);
   background-color: var(--white);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   box-shadow: 0 2px 3px rgb(0 0 0 / 16%);
   transition: all .2s ease;
-  z-index: 6;
-  flex-shrink: 0;
 
   .wrap-navigation-bar {
-    width: 100%;
-    height: 100%;
-    max-width: 1920px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 16px;
     gap: 48px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    padding: 0 16px;
 
     .wrap-swatch-on-logo {
       position: relative;
@@ -79,10 +79,10 @@
     }
 
     .navigation-list {
-      flex: 1;
       display: flex;
-      align-items: center;
+      flex: 1;
       gap: 48px;
+      align-items: center;
 
       .navigation-link {
         font-size: 16px;
@@ -98,22 +98,22 @@
       margin-right: -16px;
 
       .login-link {
+        padding: 0 16px;
         font-size: 12px;
         color: var(--gs-44);
         text-decoration: none;
-        padding: 0 16px;
       }
 
       .sign-up-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height: 100%;
+        padding: 0 16px;
         font-size: 12px;
         color: var(--white);
         text-decoration: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         background-color: var(--gs-22);
-        padding: 0 16px;
       }
     }
   }
@@ -129,8 +129,8 @@
       .wrap-login {
         .login-link,
         .sign-up-link {
-          font-size: 16px;
           padding: 0 24px;
+          font-size: 16px;
         }
       }
     }

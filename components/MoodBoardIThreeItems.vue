@@ -9,9 +9,8 @@
 </template>
 
 <script lang="ts" setup>
-import { marketingItemType } from '@/interface/marketingItems';
+import { marketingItemType } from '@interface/marketingItems';
 import { MoodBoardItem } from '@/components';
-
 
 defineProps<{
   marketingItems: marketingItemType[],
@@ -21,21 +20,21 @@ const getMoodBoardItemKey = (moodBoardItem: marketingItemType): string => {
   const itemId = moodBoardItem.id;
   const moodBoardItemKey = `mood-board-items-key-${itemId}`;
 
-  return moodBoardItemKey
-}
+  return moodBoardItemKey;
+};
 
 </script>
 
 <style lang="scss" scoped>
 .mood-board-three-items-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-row-gap: 20px;
+  gap: 16px;
+  align-items: center;
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 16px;
-  grid-row-gap: 20px;
-  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
