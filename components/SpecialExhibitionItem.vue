@@ -19,8 +19,10 @@
 </template>
 
 <script lang="ts" setup>
-import { ComputedRef } from 'vue';
-import { marketingItemType } from '~~/interface/marketingItems';
+import {
+  computed, ComputedRef,
+} from 'vue';
+import { marketingItemType } from '@/interface/marketingItems';
 
 const props = defineProps<{
   marketingItems: marketingItemType[],
@@ -37,69 +39,66 @@ const getBackgroundImageUrl: ComputedRef<string> = computed(() => {
 <style lang="scss" scoped>
 .special-exhibition-item-container {
   position: relative;
-  width: 100%;
-  max-width: 1920px;
-  color: var(--white);
-  padding: 40px 16px;
-  border-radius: 8px;
-  box-shadow: 0 3px 6px rgb(0 0 0 / 10%);
-  overflow: hidden;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  background-position: center;
-  background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1920px;
+  padding: 40px 16px;
+  overflow: hidden;
+  color: var(--white);
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 10%);
+  -webkit-backface-visibility: hidden;
 
   .special-exhibition-item-type {
+    padding: 4px 16px;
     font-size: 14px;
     font-weight: 700;
-    padding: 4px 16px;
-    border-radius: 24px;
+    color: var(--white);
     letter-spacing: .64px;
     border: 2px solid var(--white);
-    color: var(--white);
+    border-radius: 24px;
   }
 
   .special-exhibition-item-title {
+    padding-left: 16px;
+    margin: 40px 0 16px;
     font-size: 48px;
     font-weight: 700;
-    margin: 40px 0 16px;
-    padding-left: 16px;
   }
 
   .special-exhibition-item-description {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 500;
     padding-left: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
   }
 
   .more-button {
-    margin-top: 24px;
-    padding: 8px 40px;
-    cursor: pointer;
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: var(--white);
-    color: var(--gs-44);
-    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
-    letter-spacing: .64px;
-    border-radius: 4px;
-    text-overflow: ellipsis;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 40px;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--gs-44);
+    text-align: center;
+    text-overflow: ellipsis;
+    letter-spacing: .64px;
+    cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    text-align: center;
+    background: var(--white);
     border: none;
-    font-weight: 700;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
     -webkit-tap-highlight-color: rgba(255,255,255,0);
   }
 }

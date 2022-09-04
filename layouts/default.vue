@@ -15,16 +15,15 @@ import { HorizontalNavigationBar } from '@/components';
 <style lang="scss" scoped>
 .default-layout-container {
   position: relative;
-  height: 100vh;
-  background-color: var(--gs-f7);
   display: flex;
   flex-direction: column;
+  height: 100vh;
   overflow: hidden;
+  background-color: var(--gs-f7);
 
   .wrap-slot {
     flex: 1;
     overflow: auto;
   }
 }
-
 </style>

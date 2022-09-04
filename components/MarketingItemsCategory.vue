@@ -41,23 +41,23 @@ const getSelectCategoryStyle = (key: string): marketingItemsSelectCategoryStyleT
 
 <style lang="scss" scoped>
 .marketing-items-category-container {
-  margin-top: 32px;
   display: flex;
-  align-items: center;
   gap: 32px;
+  align-items: center;
   padding-bottom: 8px;
+  margin-top: 32px;
 
   .marketing-items-category {
-    background-color: var(--white);
-    color: var(--border-dark);
-    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
     padding: 8px 24px;
-    border-radius: 24px;
-    border: 2px solid transparent;
-    white-space: nowrap;
     font-size: 14px;
     font-weight: 600;
+    color: var(--border-dark);
+    white-space: nowrap;
     cursor: pointer;
+    background-color: var(--white);
+    border: 2px solid transparent;
+    border-radius: 24px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
 
     &:hover {
       border: 2px solid var(--calm-purple);
@@ -66,8 +66,8 @@ const getSelectCategoryStyle = (key: string): marketingItemsSelectCategoryStyleT
   }
 
   .select-category {
-    background: var(--calm-purple);
     color: var(--white);
+    background: var(--calm-purple);
   }
 }
 

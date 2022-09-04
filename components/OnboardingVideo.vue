@@ -47,15 +47,15 @@
 
   .wrap-onboarding {
     position: relative;
+    display: flex;
+    gap: 32px;
+    align-items: center;
     width: 100%;
     max-width: 880px;
     padding: 12px;
-    background-color: var(--gs-44);
-    color: var(--white);
-    display: flex;
-    align-items: center;
-    gap: 32px;
     overflow: hidden;
+    color: var(--white);
+    background-color: var(--gs-44);
 
     .wrap-onboarding-video {
       position: relative;
@@ -64,13 +64,13 @@
       .youtube-play-button {
         position: absolute;
         top: 50%;
+        top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
         width: 64px;
         height: 48px;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 28%);
         border-radius: 16px;
-        top: 50%;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 28%);
+        transform: translate(-50%, -50%);
       }
 
       .onboarding-video {
@@ -79,11 +79,11 @@
     }
 
     .wrap-onboarding-contents {
-      flex: 2;
       display: flex;
+      flex: 2;
       flex-direction: column;
-      justify-content: center;
       gap: 16px;
+      justify-content: center;
 
       .onboarding-contents-title {
         font-size: 22px;
@@ -97,12 +97,12 @@
 
     .white-triangle {
       position: absolute;
+      right: -32px;
+      bottom: -32px;
       width: 64px;
       height: 64px;
       background: var(--gs-f7);
       transform: rotate(45deg);
-      bottom: -32px;
-      right: -32px;
     }
   }
 }
@@ -110,10 +110,10 @@
 @media screen and (max-width: 767px) {
   .onboarding-video-container {
     .wrap-onboarding {
-      width: calc(100% - 16px);
-      margin: 0 auto;
       flex-direction: column;
       gap: 12px;
+      width: calc(100% - 16px);
+      margin: 0 auto;
     }
   }
 }

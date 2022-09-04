@@ -27,14 +27,14 @@ const getMoodBoardItemKey = (moodBoardItem: marketingItemType): string => {
 
 <style lang="scss" scoped>
 .mood-board-three-items-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-row-gap: 20px;
+  gap: 16px;
+  align-items: center;
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 16px;
-  grid-row-gap: 20px;
-  align-items: center;
 }
 
 @media screen and (min-width: 768px) {

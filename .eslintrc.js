@@ -27,6 +27,7 @@ module.exports = {
       1,
       'never',
     ],
+    'import/no-extraneous-dependencies': 'off',
     'import/prefer-default-export': 'off',
     'import/no-cycle': 'off',
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
@@ -264,12 +265,9 @@ module.exports = {
     'vue/no-setup-props-destructure': ['off'],
   },
   overrides: [
+    { files: ['containers/**/*.test.{j,t}s?(x)'] },
     {
-      files: ['src/containers/**/*.test.{j,t}s?(x)'],
-      env: { jest: true },
-    },
-    {
-      files: ['src/**/*.vue'],
+      files: ['**/*.vue'],
       rules: {
         // 함수,변수 카멜 케이스 룰 적용
         '@typescript-eslint/naming-convention': [

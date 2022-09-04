@@ -47,7 +47,9 @@
 </template>
 
 <script lang="ts" setup>
-import { ComputedRef } from 'vue';
+import {
+  computed, ComputedRef,
+} from 'vue';
 import {
   marketingItemsColorType,
   marketingItemsImageType,
@@ -99,25 +101,21 @@ const getMoodBoardColorKey = (index: number): string => {
 
 <style lang="scss" scoped>
 .mood-board-item-container {
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 3px 6px rgb(0 0 0 / 10%);
-  overflow: hidden;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 10%);
+  -webkit-backface-visibility: hidden;
 
   .mood-board-item-model-images {
     position: relative;
-    width: 100%;
-    height: 100%;
     display: flex;
     align-items: center;
+    width: 100%;
+    height: 100%;
 
     .wrap-model-image {
       flex: 1;
@@ -159,20 +157,20 @@ const getMoodBoardColorKey = (index: number): string => {
 
     .wrap-mood-board-title {
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      justify-content: space-between;
 
       .mood-board-title {
         font-size: 28px;
         font-weight: 700;
-        letter-spacing: -0.05em;
         color: var(--gs-70);
+        letter-spacing: -0.05em;
       }
 
       .mood-board-color-list {
         display: flex;
-        align-items: center;
         gap: 1px;
+        align-items: center;
 
         .mood-board-color {
           width: 24px;

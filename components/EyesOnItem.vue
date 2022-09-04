@@ -14,7 +14,9 @@
 </template>
 
 <script lang="ts" setup>
-import { ComputedRef } from 'vue';
+import {
+  computed, ComputedRef,
+} from 'vue';
 import { marketingItemType } from '@/interface/marketingItems';
 
 const props = defineProps<{
@@ -31,19 +33,19 @@ const getEyesOnImageUrl: ComputedRef<string> = computed(() => {
 
 <style lang="scss" scoped>
 .eyes-on-item-container {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
   background-color: var(--white);
   border-radius: 8px;
   box-shadow: 0 3px 6px rgb(0 0 0 / 10%);
-  overflow: hidden;
 
   .wrap-eyes-on-image {
     position: relative;
-    padding-top: 100%;
     box-sizing: border-box;
+    padding-top: 100%;
 
     .eyes-on-image {
       position: absolute;

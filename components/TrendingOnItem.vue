@@ -38,7 +38,9 @@
 </template>
 
 <script lang="ts" setup>
-import { ComputedRef } from 'vue';
+import {
+  computed, ComputedRef,
+} from 'vue';
 import { marketingItemType } from '@/interface/marketingItems';
 
 const props = defineProps<{
@@ -87,37 +89,37 @@ const getDescription: ComputedRef<string> = computed(() => {
 .trending-on-item-container {
   position: relative;
   width: 100%;
-  height: 320px;
   max-width: 1920px;
+  height: 320px;
   margin: 0 auto;
   overflow: hidden;
 
   .trending-on-item-image {
-    margin-left: calc(var(--width-gradient-section) - var(--width-overwrapping));
     width: 100%;
     height: 100%;
+    margin-left: calc(var(--width-gradient-section) - var(--width-overwrapping));
     object-fit: cover;
   }
 
   .wrap-trending-on-item-contents {
     position: absolute;
     top: 0;
-    left: 0;
     right: 0;
     bottom: 0;
-    padding: 12px 16px;
+    left: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 12px 16px;
 
     .gradient-section {
-      width: var(--width-gradient-section);
       position: absolute;
       top: 0;
-      left: 0;
       right: 0;
       bottom: 0;
+      left: 0;
       display: flex;
+      width: var(--width-gradient-section);
 
       .solid {
         flex: 1;
@@ -132,14 +134,14 @@ const getDescription: ComputedRef<string> = computed(() => {
 
     .trending-on-item-contents {
       position: relative;
-      padding-left: var(--padding-gradient-section);
       max-width: calc(var(--width-gradient-section) - var(--width-overwrapping));
+      padding-left: var(--padding-gradient-section);
       color: #fff;
 
       .trending-on-item-header {
         display: flex;
-        align-items: center;
         gap: 20px;
+        align-items: center;
 
         .trending-on-item-subtitle {
           flex: 0 0 auto;
@@ -177,10 +179,10 @@ const getDescription: ComputedRef<string> = computed(() => {
     flex-direction: column;
 
     .wrap-trending-on-item-contents {
-      height: 90px;
       top: unset;
-      background: rgba(0,0,0,.5);
+      height: 90px;
       padding: 12px 16px;
+      background: rgba(0,0,0,.5);
 
       .gradient-section {
         display: none;
@@ -192,8 +194,8 @@ const getDescription: ComputedRef<string> = computed(() => {
             font-weight: normal;
           }
           .trending-on-item-season {
-            font-weight: normal;
             font-size: 15px;
+            font-weight: normal;
           }
         }
         .trending-on-item-title {

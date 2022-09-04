@@ -17,8 +17,11 @@
 
 <script lang="ts" setup>
 import {
-  Component as ComponentType,
-  ComputedRef,
+  useRoute, useRouter,
+} from 'vue-router';
+import {
+  Component as ComponentType, computed,
+  ComputedRef, reactive,
 } from 'vue';
 import {
   marketingItemType,
@@ -180,14 +183,14 @@ const viewMarketingItemsComponent = (items: marketingItemType[]): ComponentType 
 <style lang="scss" scoped>
 .marketing-item-list-container {
   max-width: 1920px;
-  margin: 0 auto;
   padding: 0 8px;
+  margin: 0 auto;
 
   .wrap-marketing-item-list {
-    margin-top: 32px;
     display: flex;
     flex-direction: column;
     gap: 24px;
+    margin-top: 32px;
   }
 }
 

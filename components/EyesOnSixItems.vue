@@ -26,14 +26,14 @@ const eyesOnItemKey = (eyesOnItem: marketingItemType): string => {
 
 <style lang="scss" scoped>
 .eyes-on-six-items-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  column-gap: 8px;
+  align-items: center;
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 8px;
-  row-gap: 20px;
-  align-items: center;
 }
 
 @media screen and (min-width: 768px) {

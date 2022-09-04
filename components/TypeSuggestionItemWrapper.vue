@@ -25,7 +25,9 @@
 </template>
 
 <script lang="ts"  setup>
-import { ComputedRef } from 'vue';
+import {
+  computed, ComputedRef,
+} from 'vue';
 import {
   marketingItemsProductType,
   marketingItemType,
@@ -52,53 +54,53 @@ const getProductTitle: ComputedRef<string> = computed(() => {
 
 <style lang="scss" scoped>
 .type-suggestion-wrapper-item-container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
   width: 100%;
   max-width: 1920px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  border-radius: 8px;
   padding: 16px;
-  background-image: linear-gradient(280deg,var(--white),var(--gs-f7));
-  box-shadow: 3px 3px 6px -3px rgba(0,0,0,.1)!important;
+  margin: 0 auto;
   overflow: hidden;
+  background-image: linear-gradient(280deg,var(--white),var(--gs-f7));
+  border-radius: 8px;
+  box-shadow: 3px 3px 6px -3px rgba(0,0,0,.1)!important;
   -webkit-backface-visibility: hidden;
 
   .wrap-suggestion-information {
     display: flex;
+    flex: 1 0 0;
     flex-direction: column;
     align-items: flex-start;
-    flex: 1 0 0;
     max-width: 424px;
 
     .wrap-type-text {
-      padding: 4px 16px;
       display: flex;
-      justify-content: center;
       align-items: center;
+      justify-content: center;
+      padding: 4px 16px;
       font-size: 14px;
-      color: var(--gs-aa);
       font-weight: 700;
+      color: var(--gs-aa);
       letter-spacing: .64px;
-      border-radius: 24px;
       border: 2px solid var(--gs-aa);
+      border-radius: 24px;
     }
 
     .suggestion-title {
-      color: var(--gs-66);
-      font-size: 48px;
-      font-weight: 700;
       margin-top: 24px;
       margin-left: 16px;
+      font-size: 48px;
+      font-weight: 700;
+      color: var(--gs-66);
     }
 
     .suggestion-default-contents {
+      margin-top: 24px;
+      margin-left: 16px;
       font-size: 18px;
       font-weight: 600;
       color: var(--border-dark);
-      margin-top: 24px;
-      margin-left: 16px;
     }
 
     .wrap-arrow-image {
