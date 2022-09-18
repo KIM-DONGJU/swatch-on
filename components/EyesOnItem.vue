@@ -17,7 +17,7 @@
 import {
   computed, ComputedRef,
 } from 'vue';
-import { marketingItemType } from '@interface/marketingItems';
+import { marketingItemType } from '@/interface/marketingItems';
 
 const props = defineProps<{
   eyesOnItem: marketingItemType,

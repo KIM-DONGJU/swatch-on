@@ -16,7 +16,7 @@
 import {
   marketingItemsCategoryType,
   marketingItemsSelectCategoryStyleType,
-} from '@interface/marketingItems';
+} from '@/interface/marketingItems';
 
 const categories: marketingItemsCategoryType = {
   all: 'All',

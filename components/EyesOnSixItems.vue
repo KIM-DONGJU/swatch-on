@@ -9,8 +9,7 @@
 </template>
 
 <script lang="ts" setup>
-
-import { marketingItemType } from '@interface/marketingItems';
+import { marketingItemType } from '@/interface/marketingItems';
 
 defineProps<{
   marketingItems: marketingItemType[],

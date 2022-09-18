@@ -27,7 +27,7 @@ import {
   marketingItemType,
   requestMarketingItemsJsonType,
   responseMarketingItemsType,
-} from '@interface/marketingItems';
+} from '@/interface/marketingItems';
 import {
   MarketingItemsCategory,
   MoodBoardIThreeItems,

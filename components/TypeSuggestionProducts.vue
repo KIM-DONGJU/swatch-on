@@ -34,7 +34,7 @@
 import {
   marketingItemsProductType,
   marketingItemsQualityContentsType,
-} from '@interface/marketingItems';
+} from '@/interface/marketingItems';
 
 defineProps<{
   products: marketingItemsProductType[],
@@ -66,8 +66,8 @@ const getProductQualityContents = (product: marketingItemsProductType): marketin
   flex: 1;
   gap: 16px;
   align-items: center;
+  max-width: 100%;
   padding: 0 16px 16px;
-  margin: 0 -16px;
   overflow: auto;
 
   &::-webkit-scrollbar {
@@ -86,6 +86,7 @@ const getProductQualityContents = (product: marketingItemsProductType): marketin
     flex: 0 0 auto;
     flex-direction: column;
     width: 204px;
+    width: 152px;
     overflow: hidden;
     background: var(--white);
     border-radius: 8px;
@@ -97,7 +98,7 @@ const getProductQualityContents = (product: marketingItemsProductType): marketin
 
     .wrap-product-image {
       position: relative;
-      padding-top: 150%;
+      padding-top: 100%;
 
       .product-image {
         position: absolute;
@@ -130,6 +131,18 @@ const getProductQualityContents = (product: marketingItemsProductType): marketin
         justify-content: flex-end;
         font-size: 13px;
         color: var(--gs-66);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .type-suggestion-products-container {
+    .wrap-product-information {
+      width: 204px;
+
+      .wrap-product-image {
+        padding-top: 150%;
       }
     }
   }

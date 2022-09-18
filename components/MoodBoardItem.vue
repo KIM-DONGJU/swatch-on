@@ -54,7 +54,7 @@ import {
   marketingItemsColorType,
   marketingItemsImageType,
   marketingItemType,
-} from '@interface/marketingItems';
+} from '@/interface/marketingItems';
 
 const props = defineProps<{
   moodBoardItem: marketingItemType,
