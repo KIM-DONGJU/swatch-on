@@ -85,11 +85,7 @@ const getMoodBoardProductQuantity: ComputedRef<number> = computed(() => {
   return moodBoardProductQuantity;
 });
 
-const getMoodBoardColorList: ComputedRef<marketingItemsColorType[]> = computed(() => {
-  const moodBoardColorList = props.moodBoardItem.color || [];
-
-  return moodBoardColorList;
-});
+const getMoodBoardColorList = props.moodBoardItem.color || [];
 
 const getMoodBoardColorKey = (index: number): string => {
   const moodBoardColorKey = `mood-board-color-key-${index}`;

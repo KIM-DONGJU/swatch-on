@@ -1,6 +1,6 @@
 <template>
-  <div class="onboarding-video-container">
-    <div class="wrap-onboarding">
+  <div class="on-boarding-video-container">
+    <div class="wrap-on-boarding">
       <div class="wrap-onboarding-video">
         <img
           class="youtube-play-button"
@@ -35,17 +35,13 @@
   </div>
 </template>
 
-<script lang="ts" setup>
-
-</script>
-
 <style lang="scss" scoped>
-.onboarding-video-container {
+.on-boarding-video-container {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
 
-  .wrap-onboarding {
+  .wrap-on-boarding {
     position: relative;
     display: flex;
     gap: 32px;
@@ -107,8 +103,8 @@
 }
 
 @media screen and (max-width: 767px) {
-  .onboarding-video-container {
-    .wrap-onboarding {
+  .on-boarding-video-container {
+    .wrap-on-boarding {
       flex-direction: column;
       gap: 12px;
       width: calc(100% - 16px);
@@ -118,7 +114,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .onboarding-video-container {
+  .on-boarding-video-container {
     padding: 0 48px;
   }
 }

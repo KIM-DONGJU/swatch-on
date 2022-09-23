@@ -23,11 +23,7 @@ const props = defineProps<{
   eyesOnItem: marketingItemType,
 }>();
 
-const getEyesOnImageUrl: ComputedRef<string> = computed(() => {
-  const eyesOnItemImage = props.eyesOnItem.images[0]?.medium;
-
-  return eyesOnItemImage;
-});
+const getEyesOnImageUrl = props.eyesOnItem.images[0]?.medium;
 
 </script>
 

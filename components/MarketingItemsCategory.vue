@@ -18,17 +18,17 @@ import {
   marketingItemsSelectCategoryStyleType,
 } from '@/interface/marketingItems';
 
+const props = defineProps<{
+  currentCategory: string,
+  selectCategory: (key: string) => void,
+}>();
+
 const categories: marketingItemsCategoryType = {
   all: 'All',
   discover: 'Discover',
   trending_on: 'TrendingOn',
   mood_board: 'Fabric Moodboards',
 };
-
-const props = defineProps<{
-  currentCategory: string,
-  selectCategory: (key: string) => void,
-}>();
 
 const getSelectCategoryStyle = (key: string): marketingItemsSelectCategoryStyleType => {
   const isSelectCategory = props.currentCategory === key;

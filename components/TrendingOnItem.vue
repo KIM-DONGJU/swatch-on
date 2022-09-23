@@ -39,7 +39,8 @@
 
 <script lang="ts" setup>
 import {
-  computed, ComputedRef,
+  computed,
+  ComputedRef,
 } from 'vue';
 import { marketingItemType } from '@/interface/marketingItems';
 

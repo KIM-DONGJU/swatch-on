@@ -45,17 +45,8 @@ const props = defineProps<{
   marketingItems: marketingItemType[],
 }>();
 
-const getProductsItems: ComputedRef<marketingItemsProductType[]> = computed(() => {
-  const productsItems = props.marketingItems[0]?.products || [];
-
-  return productsItems;
-});
-
-const getProductTitle: ComputedRef<string> = computed(() => {
-  const productTitle = props.marketingItems[0]?.title;
-
-  return productTitle;
-});
+const getProductsItems = props.marketingItems[0]?.products || [];
+const getProductTitle = props.marketingItems[0]?.title;
 
 </script>
 

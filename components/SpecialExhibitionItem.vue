@@ -1,16 +1,16 @@
 <template>
   <div
     class="special-exhibition-item-container"
-    :style="{backgroundImage: `url(${getBackgroundImageUrl})`}"
+    :style="{backgroundImage: `url(${images[0]?.large})`}"
   >
     <p class="special-exhibition-item-type">
       Featured Collections
     </p>
     <p class="special-exhibition-item-title">
-      {{ marketingItems[0].title }}
+      {{ title }}
     </p>
     <p class="special-exhibition-item-description">
-      {{ marketingItems[0].description }}
+      {{ description }}
     </p>
     <button class="more-button">
       LEARN MORE
@@ -19,20 +19,17 @@
 </template>
 
 <script lang="ts" setup>
-import {
-  computed, ComputedRef,
-} from 'vue';
 import { marketingItemType } from '@/interface/marketingItems';
 
 const props = defineProps<{
   marketingItems: marketingItemType[],
 }>();
 
-const getBackgroundImageUrl: ComputedRef<string> = computed(() => {
-  const backgroundImageUrl = props.marketingItems[0].images[0].large;
-
-  return backgroundImageUrl;
-});
+const {
+  title = '',
+  images = [],
+  description = '',
+} = props.marketingItems[0];
 
 </script>
 
